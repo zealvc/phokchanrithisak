@@ -196,19 +196,29 @@ h6.f3-app1-content,
 h6.f3-app2-content,
 h6.f3-app3-content,
 h6.f3-app4-content,
-h6.f3-app5-content{
+h6.f3-app5-content,
+h6.f3-app6-content,
+h6.f3-app7-content,
+h6.f3-app8-content,
+h6.f3-app9-content,
+h6.f3-app10-content{
   color: #253858;
   margin-top: 0;
   font-size: 1rem;
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 25px;
-}
+} 
 .f3-app1-img,
 .f3-app2-img,
 .f3-app3-img,
 .f3-app4-img,
-.f3-app5-img{
+.f3-app5-img,
+.f3-app6-img,
+.f3-app7-img,
+.f3-app8-img,
+.f3-app9-img,
+.f3-app10-img{
   margin: 14px 25px;
   padding: 20px 0;
 }
@@ -217,7 +227,12 @@ h6.f3-app5-content{
 .f3-app2-link,
 .f3-app3-link,
 .f3-app4-link,
-.f3-app5-link{
+.f3-app5-link,
+.f3-app6-link,
+.f3-app7-link,
+.f3-app8-link,
+.f3-app9-link,
+.f3-app10-link{
   text-align: left;
   margin: 14px 5px;
   color: #0052CC;
