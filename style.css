@@ -262,14 +262,14 @@ h6#f3-description{
   margin: 15px;
 }
 .f3-btn{
-  text-align:center;
-  position: absolute;
   border: 2px solid black;
   background-color: #79F2C0;
   border-color: #79F2C0;
   border-radius: 4px;
   width: 180.38;
   height: 40px;
+  margin: 30px 85px;
+  
 }
 .f3-component-link-btn{
   width: 180.38;
@@ -281,4 +281,17 @@ h6#f3-description{
   text-align: center;
   padding: 0 5px;
   color: #253858;
+  font-weight: bold;
+}
+.f4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:30px;
+} 
+#horizon-rule-2{
+  background: rgb(231, 231, 231);
+    height: 1px;
+    width: 90%;
 }
