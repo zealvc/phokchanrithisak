@@ -375,9 +375,14 @@ h3.f4-header{
 }
 /*Content agenda reference*/
 .class1-content-agendar{
+  width:100%;
+  padding: 16px;
   
-}
+} 
 .class1-content-icon1{
+  width: 20%;
   padding: 15px;
-
+}
+.class2-content-link{
+  width: 80%;
 }
