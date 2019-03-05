@@ -386,3 +386,10 @@ h3.f4-header{
 .class2-content-link{
   width: 80%;
 }
+/*reference link style*/
+.class2-content-link, .class2-content-link a{
+  text-align: left;
+  padding-bottom: 24px;
+  color: #0052CC;
+  text-decoration: none;
+}
