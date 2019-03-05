@@ -2,6 +2,12 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     margin: 0;
 }
+select{
+  font-family: 'Merriweather Sans', sans-serif;
+  Border: none;
+  color: #42526E;
+  background-color: transparent;
+}
 .headernavbar
 {
     text-align:left;
@@ -381,7 +387,7 @@ h3.f4-header{
 } 
 .class1-content-icon1{
   width: 20%;
-  padding: 0px 15px;
+  padding: 0px 15px 0 0;
 }
 .class2-content-link{
   width: 80%;
@@ -392,4 +398,69 @@ h3.f4-header{
   padding-bottom: 24px;
   color: #0052CC;
   text-decoration: none;
+}
+.bottom-logo-altassian img{
+  padding: 15px;
+}
+.bottom-section-f8{
+  padding: 16px 0;
+}
+.class-last{
+  width:100%;
+  padding: 16px;
+  color: #42526E;
+}   
+
+.bottom-class-link{
+    display: block;
+    color: #42526E;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    font-size: .875rem;
+}
+.bottom-class-link-special{
+  display: block;
+  color: #0052CC;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  font-size: .875rem;
+}
+h3.bottom-heading{
+  color: #42526E;
+  margin-top: 0;
+  font-size: 14px;
+  letter-spacing: .3px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.bottom-section-f8{
+  background-color: #F4F5F7;
+}
+#horizon-rule-3{
+  color: rgb(235, 235, 235);
+    height: 1px;
+    width: 100%;  
+}
+.end-footer{
+  padding: 20px;
+}
+.footer-language{
+  padding:5px;
+}
+.bottom-class-link-footer{
+  display: block;
+  color: #42526E;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size: .875rem;
+}
+.social-link i{
+  color: #42526E;
+  padding: 10px;
+}
+.footer-language i{
+  color: #42526E;
 }
