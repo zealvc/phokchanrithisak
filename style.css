@@ -172,31 +172,33 @@ p{
 .f1-foot
 {
     display:inline;
-    padding:40px;
 } 
 
 .f1 img{
   display: block;
   width: 160px;
   height: auto;
-  padding-left:50px;  
+  padding-left:50px;
   
 }
 h3.f1-heading{
   display: inline-block;
   color: #253858;
-
+  margin-top: 0;
   font-size: 1.10rem;
   letter-spacing: .3px;
   line-height: 1.2;
+  margin: 14px 25px;
 } 
 #f1-description{
   color: #253858;
+
   font-size: 1.25rem;
   letter-spacing: .3px;
   line-height: 1.2;
-  font-size: 14px;
 
+  margin: 14px 25px;
+  font-size: 14px;
 }
 .f1-btn{
   text-align: l eft  ;
@@ -338,6 +340,13 @@ h6.f3-app10-content{
 }
 
 /*f3*/
+.p3-btn,
+.p3-link-btn{
+  text-align: left;
+  margin: 14px 5px;
+  color: #0052CC;
+  padding: 0 0 0 115px;
+}
 .f3{
   background-color: rgb(238, 238, 238);
   padding: 5px 0;
@@ -424,6 +433,14 @@ h3.f4-header{
   margin: 14px 25px; 
 } 
  
+.testx{
+  padding: 45px 0px;  
+}
+/*start temporary*/
+
+
+
+/*end*/
 
 /*story1*/
 .story1{  
@@ -577,6 +594,9 @@ h3.bottom-heading{
 }
 .footer-language i{
   color: #42526E;
+}
+.f3-app1-link{
+  display: none;
 }
 }
 
