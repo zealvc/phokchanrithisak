@@ -15,24 +15,24 @@ select{
     text-align:left;
     display: block;
     width: 100%;
-    
+
 }
 .headernavbar .nav--left{
   display: flex;
   float: left;
 }
-.logo img, 
-.hamburger-dropdown, 
-.searchbtn,  
+.logo img,
+.hamburger-dropdown,
+.searchbtn,
 .try-free-btn,
 .buy-now-btn
 {
     display:inline;
-} 
-/*only on iPad*/ 
+}
+/*only on iPad*/
 .try-free-btn{
   padding:15px 0;
-} 
+}
 .try-free-link{
   background-color:#0052CC;
   text-align: center;
@@ -43,7 +43,7 @@ select{
 }
 .buy-now-btn{
   padding:15px 0px;
-} 
+}
 .buy-now-link{
   background-color:rgb(255, 255, 255);
   text-align: center;
@@ -56,9 +56,9 @@ select{
   height: 10px;
   margin: -3px 5px;
   width: 161px;
-} 
-.hamburger-dropdown, 
-.searchbtn, 
+}
+.hamburger-dropdown,
+.searchbtn,
 
 .try-free-btn,
 .buy-now-btn{
@@ -72,7 +72,7 @@ select{
   float: left;
 }
 .header-new-line-link{
-  background-color:rgb(255, 255, 255); 
+  background-color:rgb(255, 255, 255);
   text-align: center;
   color: #091E42;
   border-radius: 4px;
@@ -116,13 +116,13 @@ div a {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -60%);
-  width: 479.98px;  
+  width: 479.98px;
   height: 104px;
   font-size: 2.75rem;
 }
 p{
   position: absolute;
-  top: 47%; 
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 479.98px;
@@ -140,7 +140,7 @@ p{
   border-color: #00FAEB;
   color: white;
   border-radius: 4px;
-}   
+}
 .component-link-btn {
   width: 126px;
   height: 40px;
@@ -161,7 +161,7 @@ p{
     width: 100%;
     background-color: rgb(238, 238, 238);
     padding: 20px 0;
-    
+
 }
 .f1,
 .f1 img{
@@ -172,14 +172,14 @@ p{
 .f1-foot
 {
     display:inline;
-} 
+}
 
 .f1 img{
   display: block;
   width: 160px;
   height: auto;
   padding-left:50px;
-  
+
 }
 h3.f1-heading{
   display: inline-block;
@@ -189,7 +189,7 @@ h3.f1-heading{
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 20px;
-} 
+}
 #f1-description{
   color: #253858;
   font-size: 1.25rem;
@@ -211,8 +211,8 @@ h3.f1-heading{
   width: 96.48px;
   height: 30px;
 
-  
-}  
+
+}
 .f1-component-link-btn{
   width: 96.48px;
   height: 30px;
@@ -223,7 +223,7 @@ h3.f1-heading{
   color:#0052CC ;
   font-size:13px;
   white-space: normal;
-}     
+}
 /*f2*/
 /*no style on f2-container*/
 /*clear: both on main contrainer to force div into 2 lines*/
@@ -235,14 +235,14 @@ h3.f2-header{
   color: #253858;
   font-size: 2.05rem;
   line-height: 1.33333333;
-  text-align: center; 
+  text-align: center;
   white-space: nowrap;
 
 }
 h6#f2-description{
   color: #253858;
   font-size: 1rem;
-  text-align: center; 
+  text-align: center;
 
 }
 #horizon-rule{
@@ -258,10 +258,23 @@ h6#f2-description{
 .plan-package-software{
   width:25%;
   float:left;
-  height:100%;
   padding: 28px;
+}
 
-}   
+.collection-img-story img{
+  width: 223.98px;
+  height: 230px;
+}
+.main-collection-story{
+  clear: both;
+}
+.main-collection-story-extend{
+      border:2px solid green;
+    width:49%;
+    float:left;
+    height:100%;
+    margin-right:2%;
+}
 .f3-app1-img{
   height: 10px;
   margin: -3px 5px;
@@ -278,7 +291,7 @@ h3.f3-heading{
   white-space: nowrap;
 }
 /*services start css*/
-h6.f3-app1-content, 
+h6.f3-app1-content,
 h6.f3-app2-content,
 h6.f3-app3-content,
 h6.f3-app4-content,
@@ -294,7 +307,7 @@ h6.f3-app10-content{
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 0px;
-} 
+}
 .f3-app1-img,
 .f3-app2-img,
 .f3-app3-img,
@@ -322,7 +335,7 @@ h6.f3-app10-content{
   text-align: left;
   margin: 14px 5px;
   color: #0052CC;
-  
+
 }
 /*image application*/
 /*new on iPad*/
@@ -357,14 +370,14 @@ h3.f3-header{
   color: #253858;
   margin-top: 0;
   margin: 25px 15px ;
-  text-align: center; 
+  text-align: center;
   font-size: 2.10rem;
   line-height: 1.33333333;
 }
 h6#f3-description{
   color: #253858;
   font-size: 0.9rem;
-  text-align: center; 
+  text-align: center;
   margin: 15px;
 }
 .f3-btn{
@@ -376,8 +389,8 @@ h6#f3-description{
   width: 180.38;
   height: 40px;
   margin:30px 40%;
- 
-  
+
+
 }
 .f3-component-link-btn{
   width: 180.38;
@@ -402,25 +415,25 @@ h6#f3-description{
     width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 40px 0px;
-    
+
 }
 .f4,
 .f4 img{
-  display: flex;  
+  display: flex;
   float: left;
 }
 .f4 img,
 .f4-foot
 {
     display:inline;
-} 
+}
 
 .f4 img{
   display: block;
   width: 160px;
   height: auto;
   padding-left:50px;
-  
+
 }
 h3.f4-heading{
   display: inline-block;
@@ -430,7 +443,7 @@ h3.f4-heading{
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 25px;
-} 
+}
 h3.f4-header{
   display: inline-block;
   color: #253858;
@@ -438,7 +451,7 @@ h3.f4-header{
   letter-spacing: .3px;
   line-height: 1.2;
   font-size: 2.25rem;
-  text-align: center;  
+  text-align: center;
 }
 #f2-description{
   display: none;
@@ -451,7 +464,7 @@ h3.f4-header{
   margin: 14px 25px;
   font-size: 14px;
 }
- 
+
 .testx{
 }
 .company-logo-img{
@@ -466,18 +479,21 @@ h3.f4-header{
   padding:5px 0px;
 }
 /*story1*/
-.story1{  
-  padding: 0 16px;
- 
+.story1{
+  padding: 0;
+
 }
 .comp-story1{
-  padding: 0px 40px 40px 40px;
-  
+  padding: 0;
+
+}
+.collection-stories{
+  padding: 0 15px;
 }
 .image-story1{
   padding-top: 10px;
   padding-bottom: 50px;
-} 
+}
 #story-f1-description{
   color: #253858;
   letter-spacing: .3px;
@@ -492,10 +508,20 @@ h3.f4-header{
 
 .link-learn-more-a{
   color: #0342ad;
-  margin: 20% 15px 0 15px;
-  text-align: center;   
+
+  text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
+  clear: both;
+}
+/*to divide <DIV> into two column*/
+.collection-f6-container{
+  padding: 15px;
+}
+.col-container-block{
+  border:2px solid green;
+  width:48%;
+  float:left;
 }
 /*Atlassian enterprise - new section*/
 .f6-link{
@@ -537,8 +563,8 @@ h3.f4-header{
 .class1-content-agendar{
   width:100%;
   padding: 16px;
-  
-} 
+
+}
 .class1-content-icon1{
   width: 20%;
   padding: 0px 15px 0 0;
@@ -563,7 +589,7 @@ h3.f4-header{
   width:100%;
   padding: 16px;
   color: #42526E;
-}   
+}
 
 .bottom-class-link{
     display: block;
@@ -595,7 +621,7 @@ h3.bottom-heading{
 #horizon-rule-3{
   color: rgb(235, 235, 235);
     height: 1px;
-    width: 100%;  
+    width: 100%;
 }
 .end-footer{
   padding: 20px;
@@ -774,7 +800,7 @@ select{
     text-align:left;
     display: block;
     width: 100%;
-    
+
 }
 .headernavbar .nav--left{
   display: flex;
@@ -783,12 +809,12 @@ select{
 .logo img, .hamburger-dropdown, .searchbtn
 {
     display:inline;
-}   
+}
 .nav--left{
   height: 10px;
   margin: -3px 5px;
   width: 161px;
-} 
+}
 .hamburger-dropdown, .searchbtn {
   float: right;
 }
@@ -832,7 +858,7 @@ div a {
 
 p{
   position: absolute;
-  top: 50%; 
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 328px;
@@ -850,7 +876,7 @@ p{
   border-color: #00FAEB;
   color: white;
   border-radius: 4px;
-}   
+}
 
 
 .component-link-btn {
@@ -886,7 +912,7 @@ h3.f1-heading{
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 25px;
-} 
+}
 
 #f1-description{
   color: #253858;
@@ -913,8 +939,8 @@ h3.f1-heading{
   white-space: normal;
   width:30%;
   height: auto;
-  
-}  
+
+}
 .f1-component-link-btn{
   width: 96.48px;
   height: 30px;
@@ -925,7 +951,7 @@ h3.f1-heading{
   color:#0052CC ;
   font-size:13px;
   white-space: normal;
-}     
+}
 /*f2*/
 /*no style on f2-container*/
 h3.f2-header{
@@ -935,12 +961,12 @@ h3.f2-header{
   letter-spacing: 0px;
   line-height: 1.2;
   margin: 20% 15px 0 15px;
-  text-align: center; 
+  text-align: center;
 }
 h6#f2-description{
   color: #253858;
   font-size: 1rem;
-  text-align: center; 
+  text-align: center;
   margin: 18px 0;
 }
 #horizon-rule{
@@ -964,7 +990,7 @@ h3.f3-heading{
   margin: 14px 25px;
 }
 /*services start css*/
-h6.f3-app1-content, 
+h6.f3-app1-content,
 h6.f3-app2-content,
 h6.f3-app3-content,
 h6.f3-app4-content,
@@ -980,7 +1006,7 @@ h6.f3-app10-content{
   letter-spacing: .3px;
   line-height: 1.2;
   margin: 14px 25px;
-} 
+}
 .f3-app1-img,
 .f3-app2-img,
 .f3-app3-img,
@@ -1022,12 +1048,12 @@ h3.f3-header{
   letter-spacing: 0px;
   line-height: 1.2;
   margin: 25px 15px ;
-  text-align: center; 
+  text-align: center;
 }
 h6#f3-description{
   color: #253858;
   font-size: 1rem;
-  text-align: center; 
+  text-align: center;
   margin: 15px;
 }
 .f3-btn{
@@ -1038,8 +1064,8 @@ h6#f3-description{
   width: 180.38;
   height: 40px;
   margin: 30px 85px;
-  
- 
+
+
 }
 .f3-component-link-btn{
   width: 180.38;
@@ -1060,7 +1086,7 @@ h6#f3-description{
   margin-right: auto;
   width: 50%;
   padding:30px;
-} 
+}
 #horizon-rule-2{
   background: rgb(231, 231, 231);
     height: 1px;
@@ -1073,8 +1099,8 @@ h3.f4-header{
   letter-spacing: 0px;
   line-height: 1.8;
   margin: 20% 15px 0 15px;
-  text-align: center; 
-} 
+  text-align: center;
+}
 .testx{
 
 }
@@ -1084,18 +1110,18 @@ h3.f4-header{
   padding: 10px 15px;
 }
 /*story1*/
-.story1{  
+.story1{
   padding: 0 16px;
- 
+
 }
 .comp-story1{
   padding: 0px 40px 40px 40px;
-  
+
 }
 .image-story1{
   padding-top: 10px;
   padding-bottom: 50px;
-} 
+}
 #story-f1-description{
   color: #253858;
   letter-spacing: .3px;
@@ -1111,9 +1137,9 @@ h3.f4-header{
 .link-learn-more-a{
   color: #0342ad;
   margin: 20% 15px 0 15px;
-  text-align: center;   
+  text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 /*Atlassian enterprise - new section*/
 .f6-link{
@@ -1155,8 +1181,8 @@ h3.f4-header{
 .class1-content-agendar{
   width:100%;
   padding: 16px;
-  
-} 
+
+}
 .class1-content-icon1{
   width: 20%;
   padding: 0px 15px 0 0;
@@ -1181,7 +1207,7 @@ h3.f4-header{
   width:100%;
   padding: 16px;
   color: #42526E;
-}   
+}
 
 .bottom-class-link{
     display: block;
@@ -1213,7 +1239,7 @@ h3.bottom-heading{
 #horizon-rule-3{
   color: rgb(235, 235, 235);
     height: 1px;
-    width: 100%;  
+    width: 100%;
 }
 .end-footer{
   padding: 20px;
