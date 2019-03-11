@@ -193,7 +193,7 @@
       display: inline-block;
       color: #253858;
       margin-top: 0;
-      font-size: 1.5rem;
+      font-size: 1.9rem;
       letter-spacing: .3px;
       line-height: 1.2;
       margin: 14px 20px;
@@ -263,13 +263,16 @@
         background-color: rgb(255, 255, 255);
     }
     .f3-application{
-      padding:15px;
+      padding: 15px 15px 15px 80px;
     
     }
     .plan-package-software{
       width:25%;
       float:left;
       padding: 28px;
+    }
+    .story1{
+        padding-left: 63px;
     }
     
     .plan-package-software-table{
@@ -278,6 +281,9 @@
       padding: 25px;
 
       background-color: #ffffff;
+    }
+    .special-table{
+        padding-left:70px;
     }
     .plan-package-software-footer{
       float:left;
@@ -369,13 +375,13 @@
     .image-application{
       width:479.98px;
       height: 278.88px;
-      padding:0 0 10px 30%;
+      padding:0 0 10px 400px;
     }
     .p1{
       clear: both;
     }
     .p1-application{
-      padding: 30px;
+      padding: 30px;    
     }
     .p1-description-ipad{
       color: rgb(8, 230, 38);
@@ -477,12 +483,12 @@
       margin: 14px 25px;
     }
     h3.f4-header{
-      display: inline-block;
+
       color: #253858;
       font-size: 1.10rem;
       letter-spacing: .3px;
       line-height: 1.2;
-      font-size: 2.25rem;
+      font-size: 1.75rem;
       text-align: center;
     }
     #f2-description{
@@ -496,13 +502,11 @@
       margin: 14px 25px;
       font-size: 14px;
     }
-    
-    .testx{
-    }
+
     .company-logo-img{
       width: 736px;
       height: auto;
-      padding: 10px 15px;
+      padding: 10px 15px 10px 135px;
     }
     /*P3*/
     .p1-app-link{
@@ -558,6 +562,7 @@
       border:2px solid rgb(255, 255, 255);
       width:48%;
       float:left;
+      padding-left:5px;
     }
     /*Atlassian enterprise - new section*/
     .f6-link{
