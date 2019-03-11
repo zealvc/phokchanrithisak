@@ -656,6 +656,8 @@
     }
     .end-footer{
       padding: 20px;
+      background-color: #F4F5F7;
+
     }
     .footer-language{
       padding:5px;
@@ -694,12 +696,15 @@
     }
     .float-left-rightmost{
         clear: both;
+        width: 100%;
+        background-color: #F4F5F7;
         float: right;
     }
     .float-left {
         float:left;
         width:115px; 
         white-space: nowrap;
+        
         /*or 33% for equal width independent of parent width*/
         }
     /*end of code*/
