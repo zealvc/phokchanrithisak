@@ -2,7 +2,7 @@
 @media(min-width: 1366px){
     body {
       font-family: 'Merriweather Sans', sans-serif;
-      margin: 0;
+      margin: auto;
     }
     .top-inline-rightmost{
         float: right;
@@ -512,7 +512,7 @@
     .company-logo-img{
       width: 736px;
       height: auto;
-      padding: 10px 15px 10px 135px;
+      padding: 10px 15px 10px 225px;
     }
     /*P3*/
     .p1-app-link{
