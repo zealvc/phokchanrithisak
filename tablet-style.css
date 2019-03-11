@@ -271,6 +271,11 @@
 
       background-color: #ffffff;
     }
+    .plan-package-software-footer{
+      float:left;
+      /*padding: 25px;*/
+      background-color: #F4F5F7;
+    }
     
     .collection-img-story img{
       width: 223.98px;
@@ -611,8 +616,9 @@
     }
     .class-last{
       width:100%;
-      padding: 16px;
+      /*padding: 16px;*/
       color: #42526E;
+      padding-right:16px;
     }
     
     .bottom-class-link{
@@ -638,6 +644,7 @@
       letter-spacing: .3px;
       line-height: 1.2;
       font-weight: 700;
+      padding-right:20px
     }
     .bottom-section-f8{
       background-color: #F4F5F7;
@@ -670,5 +677,15 @@
     }
     .f3-app1-link{
       display: none;
+    }
+    .horizontal-rule{
+        clear: both;
+    }
+    .container-footer-section{
+        width: 100%;
+        padding:0px 70px;
+    }
+    #horizon-rule-3{
+        display: none;
     }
     }
