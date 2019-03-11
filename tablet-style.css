@@ -688,4 +688,19 @@
     #horizon-rule-3{
         display: none;
     }
+    .float-left-leftmost{
+        float: left;
+        width: 100%;
+    }
+    .float-left-rightmost{
+        clear: both;
+        float: right;
+    }
+    .float-left {
+        float:left;
+        width:115px; 
+        white-space: nowrap;
+        /*or 33% for equal width independent of parent width*/
+        }
+    /*end of code*/
     }
