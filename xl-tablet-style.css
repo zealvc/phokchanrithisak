@@ -272,7 +272,7 @@
       padding: 28px;
     }
     .story1{
-        padding-left: 63px;
+        padding-left: 65px;
     }
     
     .plan-package-software-table{
@@ -306,7 +306,7 @@
         margin-right:2%;
     }
     .f3-container{
-        
+        background-color: #F4F5F7;
     }
     .f3-app1-img{
       height: 10px;
@@ -395,7 +395,7 @@
       padding: 0 12px;
     }
     .f3{
-      background-color: rgb(255, 255, 255);
+        background-color: #F4F5F7;
       padding: 5px 0;
     }
     .f3-container-tablet{
@@ -524,7 +524,8 @@
     
     }
     .collection-stories{
-      padding: 0 15px;
+        padding-left: 60px;
+        padding-right: 0px;
     }
     .image-story1{
       padding-top: 10px;
@@ -721,4 +722,9 @@
         /*or 33% for equal width independent of parent width*/
         }
     /*end of code*/
+
+    /*Product, Resource X, Section type of things*/
+    .bottom-class-link{
+        padding-right:80px; 
+    }
     }
