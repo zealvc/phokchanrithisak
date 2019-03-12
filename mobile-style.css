@@ -1,7 +1,6 @@
 /* SMARTPHONE */
 /*moderate-safe*/
 @media only screen and (min-width: 110px) and (max-width: 767px){
-
     body {
         font-family: 'Merriweather Sans', sans-serif;
         margin: 0;
@@ -13,7 +12,7 @@
       background-color: transparent;
     }
     .headernavbar
-    {
+    { 
         text-align:left;
         display: block;
         width: 100%;
