@@ -3,6 +3,7 @@
 # HTML, CSS Web Page Creation
 #### phokchanrithisak
 HTML, CSS, SaSS frontend building based on 3 different webpages
+![Website](https://atlassian-kit-phokchanrithisak.netlify.com/)
 
 
 ## Tools
