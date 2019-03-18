@@ -20,7 +20,7 @@ Usig automated tool (Google Lighthouse)for improving the quality of web pages an
 ![](https://lh3.googleusercontent.com/5JxelM1cKiM9TVdJZZLwtEF-yUH_FVPYLgjpdJGEU2dh3i2YUY22XOxterHpFOi2jWWsnDm_xU6AvZc9FhoRop-2YplB-lOMC0FhRxNLqmovqciBkIT9R3zD3cT6188N82a2ASHTHSa-o1W95QoJ74rw4ZT-HQLssNPSfRR6i5wxANX7E15fIt3ykDsaY5EZ0Gky6sFGou_CIt5zKrCs8uyRYCtQ3x34M_ldUqPMcH0RJHujbsUUvn6iezHekvmY6j2TM0vk1qn5H6-fOLXXX0pc7H2vdbljEClKGuYGHOREnsSKlMdy1it4QS8kB5-wQmDTwGVd7Q3Wn-33pb-vuQogd31GbmHoR2YcZO1kECjAireYk-w0WtdHPCV2KVSljzEvDqgXL4hrlQpn8WA3_1LahPtUq4iUPqX7fNxZIc5zym4MSWGzK4em7xMj1gMBw_vO56_LBJIaYZTfqwx_zcX36n4Hkl8YD5XJxVsA7LO9Hu6OTFn14o4vO6N_auTiwFdb4SS5923z8CBkR0bYH7D6dd6CEwnXswYvFt74t-oIpDPzcLgQXDKzTzXg7wGrfiVlE-oxP3h-PswQBnqF6XImh1u7vFXmCtq5yoyykxyyhw7u_A890jnAPUTfHIjfmYFDKWxKRnT38FuCKzuC_T0hanDAx1cC=w1140-h618-no)
 
 
-##Features
+## Features
 * Pure HTML & CSS (No Framework)
 * Image load using CDN or .webp format which reduce file size to almost 10x with same image quality
 * Minify HTML and CSS code
