@@ -1,13 +1,20 @@
 
 
 # HTML, CSS Web Page Creation
-## phokchanrithisak
+#### phokchanrithisak
 HTML, CSS, SaSS frontend building based on 3 different webpages
 
-Open source project of real time streaming (~30 fps) IP/Network security camera on web browser using NodeJS
+##Tools
+![Tool for webpage creation](https://lh3.googleusercontent.com/Erf_VrNl7q6PSc6Pe6cAth2eV1RJkmAjFB6iP-udxT0sbEYQm5LylUg_XA1hWnTek6MLeXLZzys6hjPfUJuTXa4t1oZ4CnmBU6YZAkRixtppV7lJ69sZV0uPqAKQ23o2pjqcWSCpqCQV8BQFQ3fHUWCG0YPxHih6TxVWM9RsvZnQ3SOAASOTQhOwDnH_ns0YTaz7lMP5YL1EvNrHz7e9OCEjKLzYEuJNGcm6BXLjfWJOl_pC0KNst9dIfl75FI9Ec8pQkCwwyRPlkpBLcLM-ee2aL45CJgI_P0t3IdWSwj9voAUDyRxApsVb2uQ6X99m_QAHPvm4PISOOWyL88V2dqzxWK0RU2y_SSgAVO6NJ61peT-D3dV67WgrCAALP48u9LvrazpuTdzZTl8z2RBD98YsAYFQ8htIUX1-zZgXuvzEcQCUOTMWizidv1P5OeTNxW0Kvjs_5aew-hT0w4abuiByHM2a8Jfl_ZwCO3txd8k_RsWHsA1aEFPdd12kQvIO2hnOTNN7BMNzLEHTIl_vyAPs-KjCjkTLFpVBXwnU27RbAXoVqPQaPeKHshgX3f88bi6rlJc0btpk8rI_7sBBwvwEp7YrZeaTVBcgMYK8oTWN6TKq549MfdSL1sU_VumOF5zJJYj4Bcm-Liyq5fzvjSX_UIjLv8vt=w336-h218-no)
+
+##Google Pagespeed Insight
+Using the PageSpeed Insights reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.
 
 ![Pagespeed Insight by Google](https://lh3.googleusercontent.com/GQDfTofXGJjRIwXnbjuPmX7CgmKiQ_MyCbFWNqstLY2rNBKX6WDqNWxLVsJFyL3-xfvyBupdS8O222zWt-nbF5eDn8tWrfOWzSDBCvGdR_BSGhfidEnKZr96Uaqs2_orq9hzkF7-0xhsp3mm_QY-7mXzIE74vuxoNRKbsOyoXoDWIueFu1goSm0WzadBTcrLRACcBH2LPOBzo4zSxD-yDK7s0vFX32H5X03fvdCyU3zCW8lCymcmDnCAp8oU0668cjOT06wBgOVQYMLb2EzHvEOTx4TQvzlaAvwX_HYcZ88ZfT0JJAf6C793lBiM5xNtwGAyWcFm5UBJL_q4fO10t-2jc_hexKXblR6dLn6JDwOPKnMllJSOa8BdK7lozAEqGvF6yehyoLjFoOgVQafMopAf99MZ8KyC13R_eJoC7hrFVDd20KhCsRcvz8L7Lg1ASJq2JsMW-8QJlBYd_TNNUdx3bOmMZP5Gne2nTAdJtJEP-1UWXsbCSPNAas1Us8WW39QilMCCclIN5rxaCejYSCRcxuTeKWAjlLQ-JjeADjBA7KXswXHvjxMaTWGVJZ7EPZFPjpywgk8oMv7PgdwP5anmQsEWP0YNj8HE0eV8f5n1zjPJ_yczZb-63YOeOS0U7tC4BBrkTPmxSx1fzAPIKqGzX1UdJnUs=w1306-h667-no)
 
+
+##Google Lighthouse
+Usig automated tool (Google Lighthouse)for improving the quality of web pages and to do the auditing on webpage.
 ## Getting Started
 
 These instructions will get you a copy of the project to make it up and running on your local machine for development and testing purposes.
