@@ -6,15 +6,15 @@
     body {
         margin: auto
     }
-    .top-inline-leftmost{
-        padding: 0 150px;
+    .top-inline-leftmost {
+        padding: 0 150px
     }
     .top-inline-rightmost {
         float: right;
-        padding: 0 150px;
+        padding: 0 150px
     }
     .sec-top-img {
-        padding: 0 0 0 180px;
+        padding: 0 0 0 180px
     }
     .header-new-line-btn {
         padding-top: 20px
@@ -337,7 +337,7 @@
         clear: both
     }
     .p1-application {
-        padding: 30px 30px 30px 180px;
+        padding: 30px 30px 30px 180px
     }
     .p1-description-ipad {
         color: #08e626
@@ -442,7 +442,7 @@
     .company-logo-img {
         width: 736px;
         height: auto;
-        padding: 10px 15px 10px 300px;
+        padding: 10px 15px 10px 300px
     }
     .p1-app-link {
         text-align: left;
