@@ -12,7 +12,7 @@ HTML, CSS, SaSS frontend building based on 3 different webpages
 
 ## Google Pagespeed Insight
 Using the PageSpeed Insights reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.
-![Pagespeed Insight by Google](https://github.com/xpcrts/photo/blob/master/Capture(2).png?raw=true)
+![Pagespeed Insight by Google](https://github.com/xpcrts/photo/blob/master/Capture.png?raw=true)
 ## Google Lighthouse
 Usig automated tool (Google Lighthouse)for improving the quality of web pages and to do the auditing on webpage.
 #### Lighthouse auditing on *Original Website*
