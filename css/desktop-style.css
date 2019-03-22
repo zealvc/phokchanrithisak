@@ -108,7 +108,7 @@
     .headernavbar-container{
         margin: auto 80px; 
     }
-
+  
     .component-link-btn,
     .component-register-btn,
     .frontpage-bg {
@@ -156,9 +156,10 @@
         width: 479.98px;
         height: 84px
     }
+    
     .component-register-btn {
         top: 70%;
-        border: 2px solid #00FAEB;
+        border: 2px solid rgb(255, 255, 255);
         background-color: Transparent;
         border-radius: 4px
     }
@@ -509,7 +510,7 @@
     }
     .collection-stories {
         padding-left: 60px;
-        padding-right: 0
+        padding-right: 0;
     }
     .image-story1 {
         padding-top: 10px;
@@ -597,8 +598,8 @@
     .bottom-class-link,
     .bottom-logo-altassian img {
         width: 125px;
-        padding-right: 94px;
-        padding-left: 28px;
+        padding-right: 81.5;
+        padding-left: 25px;
     }
     .bottom-section-f8 {
         clear: both;
