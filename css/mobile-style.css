@@ -8,7 +8,7 @@
     }
     select {
         Border: none;
-        color: #42526e;
+        color: #42526E;
         background-color: transparent
     }
     .headernavbar {
@@ -57,7 +57,7 @@
     .frontpage-bg img {
         width: 100%;
         height: auto;
-        background-color: #1e133c
+        background-color: #1E133C
     }
     .frontpage-bg {
         position: relative
@@ -83,7 +83,7 @@
     }
     .component-register-btn {
         top: 75%;
-        border: 2px solid #00faeb;
+        border: 2px solid #00FAEB;
         background-color: Transparent;
         border-radius: 4px
     }
@@ -125,13 +125,13 @@
     }
     .f1-btn,
     .f1-component-link-btn {
-        color: #0052cc;
+        color: #0052CC;
         white-space: normal
     }
     .f1-btn {
         text-align: left;
         position: relative;
-        border: 2px solid #0052cc;
+        border: 2px solid #0052CC;
         background-color: Transparent;
         border-radius: 4px;
         margin: 14px 25px;
@@ -165,7 +165,7 @@
         margin: 18px 0
     }
     #horizon-rule {
-        background: #0052cc;
+        background: #0052CC;
         height: 4px;
         width: 140px
     }
@@ -219,7 +219,7 @@
     .f3-app9-link {
         text-align: left;
         margin: 14px 5px;
-        color: #0052cc
+        color: #0052CC
     }
     .f3-component-link-btn,
     h3.f3-header,
@@ -243,8 +243,8 @@
         margin: 15px
     }
     .f3-btn {
-        border: 2px solid #79f2c0;
-        background-color: #79f2c0;
+        border: 2px solid #79F2C0;
+        background-color: #79F2C0;
         border-radius: 4px;
         width: 180.38;
         height: 40px;
@@ -304,7 +304,7 @@
     }
     .story-f3-app1-link {
         text-align: left;
-        color: #0052cc;
+        color: #0052CC;
         padding: 0
     }
     .link-learn-more-a {
@@ -349,19 +349,19 @@
     .class2-content-link a {
         text-align: left;
         padding-bottom: 24px;
-        color: #0052cc;
+        color: #0052CC;
         text-decoration: none
     }
     .bottom-class-link,
     .class-last {
-        color: #42526e
+        color: #42526E
     }
     .bottom-logo-altassian img {
         padding: 15px
     }
     .bottom-section-f8 {
         padding: 16px 0;
-        background-color: #f4f5f7
+        background-color: #F4F5F7
     }
     .class-last {
         width: 100%;
@@ -376,10 +376,10 @@
         text-decoration: none
     }
     .bottom-class-link-special {
-        color: #0052cc
+        color: #0052CC
     }
     h3.bottom-heading {
-        color: #42526e;
+        color: #42526E;
         margin-top: 0;
         font-size: 14px;
         font-weight: 700
@@ -397,23 +397,23 @@
     }
     .bottom-class-link-footer {
         display: block;
-        color: #42526e;
+        color: #42526E;
         text-align: left;
         padding: 5px;
         text-decoration: none;
         font-size: .875rem
     }
     .social-link i {
-        color: #42526e;
+        color: #42526E;
         padding: 10px
     }
     .footer-language i {
-        color: #42526e
+        color: #42526E
     }
     .buy-now-btn,
     .header-new-line,
     .header-new-line-btn,
     .try-free-btn {
-        display: none
+        display: none;
     }
 }
