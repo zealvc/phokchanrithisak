@@ -1,4 +1,5 @@
 @media(min-width:1366px) {
+    /*default elements*/
     body,
     select {
         font-family: 'Merriweather Sans', sans-serif
@@ -14,6 +15,13 @@
     }
     body {
         margin: 0
+    }
+    div a {
+        display: block;
+        color: #b8b8b8;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none
     }
     .top-inline-rightmost {
         float: right
@@ -63,7 +71,7 @@
     .try-free-link {    
         background-color: #0052CC;
         color: #fff;
-        padding-top: 8px 17px;
+        padding: 8px 17px;
     }
     .buy-now-btn {
         padding: 15px 0;
@@ -106,12 +114,12 @@
         overflow: hidden;
         background-color: #fff
     }
-    div a {
-        display: block;
-        color: #b8b8b8;
-        text-align: center;
-        padding: 20px;
-        text-decoration: none
+
+    .frontpage-bg-image{
+        background-image: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le");
+        background-position: bottom center;
+        background-repeat: no-repeat;   
+        background-size: cover;
     }
     .component-link-btn,
     .component-register-btn,
@@ -127,14 +135,21 @@
     .frontpage-bg {
         position: relative
     }
+    .frontpage-bg p{
+        width: 767.98px;
+        height: 56px;
+        top: 55%;
+        left: 52%;
+    }
     .frontpage-heading {
         position: absolute;
-        top: 20%;
-        left: 50%;
+        top: 45%;
+        left: 40%;
         transform: translate(-50%, -60%);
         width: 479.98px;
         height: 104px;
-        font-size: 2.75rem
+        font-size: 2.75rem;
+        white-space: nowrap;
     }
     .component-register-btn,
     p {
@@ -148,10 +163,10 @@
         height: 84px
     }
     .component-register-btn {
-        top: 65%;
-        border: 2px solid #00FAEB;
+        top: 70%;
+        border: 2px solid rgb(255, 255, 255);
         background-color: Transparent;
-        border-radius: 4px
+        border-radius: 4px;
     }
     .component-link-btn {
         width: 126px;
@@ -159,7 +174,7 @@
         margin: 0 auto;
         display: inline-block;
         line-height: 42px;
-        padding: 0 5px
+        padding: 0 5px;
     }
     #f1-description,
     h3.f1-heading {
@@ -171,7 +186,7 @@
         text-align: left;
         width: 100%;
         background-color: #eee;
-        padding: 20px 0
+        padding: 35px 0;
     }
     .f1,
     .f1 img {
@@ -180,44 +195,49 @@
     }
     .f1 img,
     .f1-foot {
-        display: inline
+        font-size: 0.5rem;
+        line-height: 1.2;
     }
     .f1 img {
         display: block;
-        width: 160px;
+        width: 193px;
         height: auto;
-        padding-left: 50px
+        padding-left: 250px;
     }
     h3.f1-heading {
         display: inline-block;
-        font-size: 1.9rem;
-        margin: 14px 20px
+        font-size: 1.4rem;
+        margin: 5px 25px;
     }
     #f1-description {
         margin: 14px 25px;
-        font-size: 14px
+        font-size: 14px;
     }
     .f1-btn,
     .f1-component-link-btn {
-        width: 96.48px;
-        height: 30px;
-        color: #0052CC;
-        white-space: normal
+        margin: 0 auto;
+        padding: 0;
+        line-height: 30px;
+        text-align: center;
+        font-size: 13px;
     }
     .f1-btn {
-        text-align: l eft;
+        text-align: left;
         position: relative;
         border: 1px solid #0052CC;
         background-color: Transparent;
         border-radius: 4px;
-        margin: 14px 25px
+        margin: 14px 25px;
+        width: 88.047px;
+        height: 28px;
     }
     .f1-component-link-btn {
         margin: 0 auto;
         padding: 0;
         line-height: 30px;
         text-align: center;
-        font-size: 13px
+        font-size: 13px;
+        color: #0052CC;
     }
     .f2-container {
         padding: 15px
@@ -240,7 +260,7 @@
         width: 140px
     }
     .f3-application {
-        padding: 15px 15px 15px 80px
+        padding: 15px 15px 15px 165px;
     }
     .plan-package-software {
         width: 25%;
@@ -330,16 +350,19 @@
     .f3-app8-link,
     .f3-app9-link {
         text-align: left;
-        margin: 14px 5px;
-        color: #0052CC
+        margin: 14px 0px;
+        color: #0052CC;
+        padding: 0;
     }
     .image-application {
         width: 479.98px;
         height: 278.88px;
-        padding: 0 0 10px 400px
+        padding: 30px 0 0 100px;
+ 
     }
     .p1-application {
-        padding: 30px
+        padding: 30px 30px 30px 168px;
+       
     }
     .p1-description-ipad {
         color: #08e626
@@ -356,7 +379,7 @@
         text-align: center
     }
     .f3 {
-        padding: 5px 0
+        padding: 32px 0;
     }
     .f3-container-tablet {
         padding: 100px
@@ -365,7 +388,6 @@
         margin: 25px 15px;
         font-size: 2.1rem;
         line-height: 1.33333333;
-        padding-top: 50px
     }
     h6#f3-description {
         font-size: .9rem;
@@ -409,13 +431,15 @@
     }
     .f4 img,
     .f4-foot {
-        display: inline
+        display: inline;
+        width: 767.984px;
+        height: 168px;
     }
     .f4 img {
         display: block;
         width: 160px;
         height: auto;
-        padding-left: 50px
+        padding-left: 170px;
     }
     h3.f4-heading {
         display: inline-block;
