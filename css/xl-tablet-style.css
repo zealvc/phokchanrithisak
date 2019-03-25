@@ -139,12 +139,12 @@
         width: 767.98px;
         height: 56px;
         top: 55%;
-        left: 52%;
+        left:490px;
     }
     .frontpage-heading {
         position: absolute;
         top: 45%;
-        left: 40%;
+        left: 330px;
         transform: translate(-50%, -60%);
         width: 479.98px;
         height: 104px;
@@ -202,7 +202,7 @@
         display: block;
         width: 193px;
         height: auto;
-        padding-left: 250px;
+        padding-left: 140px;
     }
     h3.f1-heading {
         display: inline-block;
@@ -260,7 +260,7 @@
         width: 140px
     }
     .f3-application {
-        padding: 15px 15px 15px 165px;
+        padding: 15px 15px 15px 90px;
     }
     .plan-package-software {
         width: 25%;
@@ -270,7 +270,7 @@
     .plan-package-software-new{
         width: 25%;
         float: left;
-        width: 367.984px;
+        width: 290px;
         border-radius: 4px;
         box-shadow: 1px 1px 6px rgba(0,0,0,.1);
         height: auto;
@@ -288,29 +288,30 @@
         background-color: #fff
     }
     .large-collection-agenda{
-        padding-left:90px;
+        padding-left:35px;
     }
     .f3,
     .f3-container {
         background-color: #F4F5F7
     }
     .special-table {
-        padding-left: 70px
+        padding-left: 10px;
     }
     .plan-package-software-footer {
         float: left;
         background-color: #F4F5F7
     }
     .collection-img-story img {
-        width: 223.98px;
-        height: 230px
+        width: 260px;
+        height: 180px
     }
     .main-collection-story-extend {
         border: 2px solid green;
         width: 49%;
         float: left;
         height: 100%;
-        margin-right: 2%
+        
+        padding-left: 30px !important;
     }
     .f3-app1-img {
         height: 10px;
@@ -371,11 +372,11 @@
     .image-application {
         width: 479.98px;
         height: 278.88px;
-        padding: 30px 0 0 100px;
+        padding: 30px 0 0 0;
  
     }
     .p1-application {
-        padding: 30px 30px 30px 168px;
+        padding: 30px 30px 30px 90px;
        
     }
     .p1-description-ipad {
@@ -454,7 +455,7 @@
         display: block;
         width: 160px;
         height: auto;
-        padding-left: 170px;
+        padding-left: 70px;
     }
     h3.f4-heading {
         display: inline-block;
@@ -480,9 +481,9 @@
         margin: 14px 25px
     }
     .company-logo-img {
-        width: 1168px;
+        width: 992px;
         height: auto;
-        padding: 0px 15px 0px 90px;
+        padding: 0px 15px 0px 0px;
     }
     .p1-app-link {
         text-align: left;
@@ -494,8 +495,8 @@
         padding: 0
     }
     .collection-stories {
-        padding-left: 60px;
-        padding-right: 0
+       
+        padding-left: 15px ;
     }
     .image-story1 {
         padding-top: 10px;
@@ -515,9 +516,7 @@
         padding: 40px 0;
 
     }
-    .f6-container {
-        padding-left: 20px;
-    }
+
     .col-container-block {
         border: 2px solid #fff;
         width: 48%;
@@ -535,7 +534,7 @@
     }
     .component-f6 {
         background-color: #eee;
-        padding: 60px 40px;
+        padding: 60px 0px;
         width: 488px;
         height: 176px;
     }
@@ -547,7 +546,7 @@
         transition: box-shadow .2s ease-in;
     }
     .collection-f6-container{
-        padding-left: 70px;
+        padding-left: 15px;
     }
     .component-f6 img {
         display: block;
@@ -580,10 +579,10 @@
         color: #42526E
     }
     .bottom-logo-altassian img {
-        padding: 15px;
+        padding: 15px 15px 15px 60px;
     }
     .bottom-section-f8 {
-        padding: 16px 0 16px 80px;
+        padding: 16px 0 16px 0;
         background-color: #F4F5F7;
     }
     .class-last {
@@ -616,7 +615,7 @@
         width: 100%
     }
     .end-footer {
-        padding: 20px 20px 20px 35px;
+        padding: 20px 20px 20px 60px;
         background-color: #F4F5F7
     }
     .four-section-footer{
