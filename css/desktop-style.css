@@ -63,15 +63,15 @@
     .try-free-link {    
         background-color: #0052CC;
         color: #fff;
-        padding: 3px 20px
+        padding-top: 8px 17px;
     }
     .buy-now-btn {
-        padding: 15px 0
+        padding: 15px 0;
     }
     .buy-now-link {
         background-color: #fff;
         color: #0052CC;
-        padding: 3px 20px
+        padding: 8px 17px;
     }
     .nav--left {
         height: 10px;
