@@ -26,19 +26,25 @@
         color: #42526E;
         background-color: transparent
     }
+    /*header navigation bar*/
     .headernavbar {
         text-align: left;
         display: block;
-        width: 100%
+        width: 100%;
+        padding: 0 10px;
+    }
+    .headernavbar-container{
+        padding: 0 100px;
     }
     .buy-now-link,
     .header-new-line-link,
     .try-free-link {
         text-align: center;
         border-radius: 4px;
-        font-size: 14px
+        font-size: 14px;
+      
     }
-    .headernavbar .nav--left {
+    .headernavbar .nav--left    {
         display: flex;
         float: left
     }
@@ -47,12 +53,14 @@
     .logo img,
     .searchbtn,
     .try-free-btn {
-        display: inline
+        display: inline;
+        
     }
     .try-free-btn {
-        padding: 15px 0
+        padding: 15px 0;
+
     }
-    .try-free-link {
+    .try-free-link {    
         background-color: #0052CC;
         color: #fff;
         padding: 3px 20px
