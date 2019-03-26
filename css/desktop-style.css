@@ -58,7 +58,6 @@
     }
     .buy-now-btn,
     .hamburger-dropdown,
-    .logo img,
     .searchbtn,
     .try-free-btn {
         display: inline;
@@ -301,21 +300,6 @@
         float: left;
         background-color: #F4F5F7
     }
-    .collection-img-story img {
-        width: 223.98px;
-        height: 230px
-    }
-    .main-collection-story-extend {
-        border: 2px solid green;
-        width: 49%;
-        float: left;
-        height: 100%;
-        margin-right: 2%
-    }
-    .f3-app1-img {
-        height: 10px;
-        width: 161px
-    }
     h3.f3-heading {
         color: #253858;
         font-size: 1.1rem;
@@ -324,10 +308,7 @@
         margin: 14px 0;
         white-space: nowrap
     }
-    h6.f3-app1-content,
-    h6.f3-app10-content,
     h6.f3-app2-content,
-    h6.f3-app3-content,
     h6.f3-app4-content,
     h6.f3-app5-content,
     h6.f3-app6-content,
@@ -340,10 +321,8 @@
         line-height: 1.2;
         margin: 14px 0
     }
-    .f3-app1-img,
     .f3-app10-img,
     .f3-app2-img,
-    .f3-app3-img,
     .f3-app4-img,
     .f3-app5-img,
     .f3-app6-img,
@@ -356,7 +335,6 @@
     .f3-app1-link,
     .f3-app10-link,
     .f3-app2-link,
-    .f3-app3-link,
     .f3-app4-link,
     .f3-app5-link,
     .f3-app6-link,
@@ -377,9 +355,6 @@
     .p1-application {
         padding: 30px 30px 30px 168px;
        
-    }
-    .p1-description-ipad {
-        color: #08e626
     }
     .p3-btn,
     .p3-link-btn {
@@ -670,10 +645,6 @@
     .component__image,
     .four-section-footer{
         display: inline-block;
-    }
-    .component__image_bottom{
-        padding-left: 35px;
-        padding-bottom: 170px;
     }
     .float-left-rightmost{
         display: none;

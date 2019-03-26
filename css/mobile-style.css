@@ -28,7 +28,6 @@
         float: left
     }
     .hamburger-dropdown,
-    .logo img,
     .searchbtn {
         display: inline
     }
@@ -179,19 +178,12 @@
         height: 4px;
         width: 140px
     }
-    .f3-app1-img {
-        height: 10px;
-        width: 161px
-    }
     h3.f3-heading {
         font-size: 1.1rem;
         letter-spacing: .3px;
         margin: 14px 25px
     }
-    h6.f3-app1-content,
-    h6.f3-app10-content,
     h6.f3-app2-content,
-    h6.f3-app3-content,
     h6.f3-app4-content,
     h6.f3-app5-content,
     h6.f3-app6-content,
@@ -204,10 +196,8 @@
         line-height: 1.2;
         margin: 14px 25px
     }
-    .f3-app1-img,
     .f3-app10-img,
     .f3-app2-img,
-    .f3-app3-img,
     .f3-app4-img,
     .f3-app5-img,
     .f3-app6-img,
@@ -220,7 +210,6 @@
     .f3-app1-link,
     .f3-app10-link,
     .f3-app2-link,
-    .f3-app3-link,
     .f3-app4-link,
     .f3-app5-link,
     .f3-app6-link,
@@ -290,9 +279,6 @@
     #f4-description{
         height: 40px;
         width: 324px;
-    }
-    f4-foot{
-        padding: 0px;
     }
     .p3-link-btn{
         text-align: left; 
