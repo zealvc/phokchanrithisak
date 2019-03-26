@@ -1,4 +1,5 @@
 @media(min-width:1366px) {
+
     /*default elements*/
     body,
     select {
@@ -16,6 +17,7 @@
     body {
         margin: 0
     }
+
     div a {
         display: block;
         color: #b8b8b8;
@@ -23,9 +25,11 @@
         padding: 20px;
         text-decoration: none
     }
+
     .top-inline-rightmost {
         float: right
     }
+
     .header-new-line-btn {
         padding-top: 20px
     }
@@ -34,6 +38,7 @@
         color: #42526E;
         background-color: transparent
     }
+
     /*header navigation bar*/
     .headernavbar {
         text-align: left;
@@ -44,11 +49,13 @@
     .headernavbar-container{
         padding: 0 100px;
     }
+
     .buy-now-link,
     .header-new-line-link,
     .try-free-link {
         text-align: center;
         border-radius: 4px;
+
         font-size: 14px;
       
     }
@@ -68,6 +75,7 @@
 
     }
     .try-free-link {    
+
         background-color: #0052CC;
         color: #fff;
         padding: 8px 17px;
@@ -85,6 +93,7 @@
         margin: -3px 5px;
         width: 161px
     }
+
     .buy-now-btn,
     .hamburger-dropdown,
     .searchbtn,
@@ -114,32 +123,40 @@
         background-color: #fff
     }
 
+
     .frontpage-bg-image{
         background-image: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le");
         background-position: bottom center;
         background-repeat: no-repeat;   
         background-size: cover;
     }
+
     .component-link-btn,
     .component-register-btn,
     .frontpage-bg {
         text-align: center;
+
         color: #fff
+
     }
     .frontpage-bg img {
         width: 100%;
         height: 475px;
+t
         background-color: #1E133C
+
     }
     .frontpage-bg {
         position: relative
     }
+
     .frontpage-bg p{
         width: 767.98px;
         height: 56px;
         top: 55%;
         left: 52%;
     }
+
     .frontpage-heading {
         position: absolute;
         top: 45%;
@@ -161,11 +178,14 @@
         width: 479.98px;
         height: 84px
     }
+
     .component-register-btn {
         top: 70%;
         border: 2px solid rgb(255, 255, 255);
         background-color: Transparent;
+
         border-radius: 4px;
+
     }
     .component-link-btn {
         width: 126px;
@@ -173,8 +193,10 @@
         margin: 0 auto;
         display: inline-block;
         line-height: 42px;
+
         padding: 0 5px;
     }
+
     #f1-description,
     h3.f1-heading {
         color: #253858;
@@ -184,8 +206,10 @@
     .f1 {
         text-align: left;
         width: 100%;
+
         background-color: #eee;
         padding: 35px 0;
+
     }
     .f1,
     .f1 img {
@@ -194,18 +218,23 @@
     }
     .f1 img,
     .f1-foot {
+
         font-size: 0.5rem;
         line-height: 1.2;
+
     }
     .f1 img {
         display: block;
         width: 193px;
         height: auto;
+
         padding-left: 250px;
+
     }
     h3.f1-heading {
         display: inline-block;
         font-size: 1.4rem;
+
         margin: 5px 25px;
     }
     #f1-description {
@@ -222,24 +251,29 @@
     }
     .f1-btn {
         text-align: left;
+
         position: relative;
         border: 1px solid #0052CC;
         background-color: Transparent;
         border-radius: 4px;
+
         margin: 14px 25px;
         width: 88.047px;
         height: 28px;
+
     }
     .f1-component-link-btn {
         margin: 0 auto;
         padding: 0;
         line-height: 30px;
         text-align: center;
+
         font-size: 13px;
         color: #0052CC;
     }
     .f2-container {
         padding: 15px
+
     }
     h3.f2-header {
         color: #253858;
@@ -248,7 +282,9 @@
         text-align: center;
         white-space: nowrap
     }
+
     h6#f2-description {
+
         color: #253858;
         font-size: 1rem;
         text-align: center
@@ -259,26 +295,34 @@
         width: 140px
     }
     .f3-application {
+
         padding: 15px 15px 15px 165px;
+
     }
     .plan-package-software {
         width: 25%;
         float: left;
         padding: 28px
     }
+
     .plan-package-software-new{
         width: 25%;
         float: left;
         width: 367.984px;
+
         border-radius: 4px;
         box-shadow: 1px 1px 6px rgba(0,0,0,.1);
         height: auto;
         padding: 0 15px;
         padding-bottom: 25px;
+
         margin: 0 5px;
     }
     .story1 {
         padding-left: 65px
+
+ 
+
     }
     .plan-package-software-table {
         width: 25%;
@@ -286,6 +330,7 @@
         padding: 25px;
         background-color: #fff
     }
+
     .large-collection-agenda{
         padding-left:90px;
     }
@@ -293,6 +338,7 @@
     .f3-container {
         background-color: #F4F5F7
     }
+
     .special-table {
         padding-left: 70px
     }
@@ -300,15 +346,19 @@
         float: left;
         background-color: #F4F5F7
     }
+
     h3.f3-heading {
         color: #253858;
         font-size: 1.1rem;
+
         letter-spacing: .3px;
         line-height: 1.2;
         margin: 14px 0;
         white-space: nowrap
     }
+
     h6.f3-app2-content,
+
     h6.f3-app4-content,
     h6.f3-app5-content,
     h6.f3-app6-content,
@@ -321,8 +371,10 @@
         line-height: 1.2;
         margin: 14px 0
     }
+
     .f3-app10-img,
     .f3-app2-img,
+
     .f3-app4-img,
     .f3-app5-img,
     .f3-app6-img,
@@ -335,6 +387,7 @@
     .f3-app1-link,
     .f3-app10-link,
     .f3-app2-link,
+
     .f3-app4-link,
     .f3-app5-link,
     .f3-app6-link,
@@ -342,11 +395,14 @@
     .f3-app8-link,
     .f3-app9-link {
         text-align: left;
+
         margin: 14px 0px;
+
         color: #0052CC;
         padding: 0;
     }
     .image-application {
+
         width: 479.98px;
         height: 278.88px;
         padding: 30px 0 0 100px;
@@ -354,7 +410,7 @@
     }
     .p1-application {
         padding: 30px 30px 30px 168px;
-       
+
     }
     .p3-btn,
     .p3-link-btn {
@@ -365,6 +421,7 @@
     h3.f3-header,
     h6#f3-description {
         color: #253858;
+
         text-align: center
     }
     .f3 {
@@ -378,6 +435,7 @@
         font-size: 2.1rem;
         line-height: 1.33333333;
         padding-top: 50px;
+
     }
     h6#f3-description {
         font-size: .9rem;
@@ -389,7 +447,9 @@
         border-radius: 4px;
         width: 180.38;
         height: 40px;
+
         margin: 30px 40%
+
     }
     .f3-component-link-btn {
         width: 180.38;
@@ -414,6 +474,8 @@
         background-color: #fff;
         padding: 40px 0
     }
+
+
     .f4,
     .f4 img {
         display: flex;
@@ -429,7 +491,9 @@
         display: block;
         width: 160px;
         height: auto;
+
         padding-left: 170px;
+
     }
     h3.f4-heading {
         display: inline-block;
@@ -447,17 +511,21 @@
         letter-spacing: .3px;
         line-height: 1.2
     }
+
     #f2-description {
         display: none
     }
+
     #f4-description {
         color: #253858;
         margin: 14px 25px
     }
     .company-logo-img {
+
         width: 1168px;
         height: auto;
         padding: 0px 15px 0px 90px;
+
     }
     .p1-app-link {
         text-align: left;
@@ -470,11 +538,13 @@
     }
     .collection-stories {
         padding-left: 60px;
+
         padding-right: 0
     }
     .image-story1 {
         padding-top: 10px;
         padding-bottom: 50px
+
     }
     #story-f1-description {
         color: #253858
@@ -487,22 +557,27 @@
     .link-learn-more-a {
         color: #0342ad;
         text-align: center;
+
         padding: 40px 0;
 
     }
     .f6-container {
         padding-left: 20px;
     }
+
     .col-container-block {
         border: 2px solid #fff;
         width: 48%;
         float: left;
+
         padding-left: 5px;
+
     }
     .f6-link {
         text-align: left;
         color: #253858;
         padding: 0;
+
     }
     #f6-description {
         color: #253858;
@@ -516,21 +591,26 @@
     }
     .component-f6-image{
         padding-bottom: 15px;
+
     }
     .component-f6:hover{
         box-shadow: 0 4px 12px rgba(0,0,0,.25);
         transition: box-shadow .2s ease-in;
     }
+
     .collection-f6-container{
         padding-left: 70px;
     }
+
     .component-f6 img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
         width: 300px;
+
         height: auto;
+
     }
     .class1-content-agendar {
         width: 100%
@@ -551,6 +631,7 @@
         padding: 2px
     }
     .bottom-class-link,
+
     .class-last {
         color: #42526E
     }
@@ -560,6 +641,7 @@
     .bottom-section-f8 {
         padding: 16px 0 16px 80px;
         background-color: #F4F5F7;
+
     }
     .class-last {
         width: 100%;
@@ -591,12 +673,14 @@
         width: 100%
     }
     .end-footer {
+
         padding: 20px 20px 20px 35px;
         background-color: #F4F5F7
     }
     .four-section-footer{
        
     }
+
     .footer-language {
         padding: 5px
     }
@@ -619,6 +703,7 @@
     .footer-language i {
         color: #42526E
     }
+
     .container-footer-section {
         width: 100%;
         padding: 0 70px
@@ -631,21 +716,28 @@
         clear: both;
         width: 100%;
         background-color: #F4F5F7;
+
         float: right
+
     }
     .float-left {
         float: left;
         width: 115px;
+
         white-space: nowrap
+
     }
     .bottom-class-link {
         padding-right: 80px;
     }
+
     .bottom-logo-altassian,
+
     .component__image,
     .four-section-footer{
         display: inline-block;
     }
+
     .float-left-rightmost{
         display: none;
     }
@@ -653,4 +745,5 @@
         padding-left: 40px !important;
         padding-bottom: 170px !important;
     }
+
 }

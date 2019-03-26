@@ -1,4 +1,6 @@
+
 @media(min-width:768px) and (max-width:1023px) {
+
     body,
     select {
         font-family: 'Merriweather Sans', sans-serif
@@ -14,7 +16,9 @@
         clear: both
     }
     body {
+
         margin: 0
+
     }
     select {
         Border: none;
@@ -26,12 +30,14 @@
         display: block;
         width: 100%
     }
+
     .frontpage-bg-image{
         background-image: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le");
         background-position: bottom center;
         background-repeat: no-repeat;   
         background-size: cover;
     }
+
     .buy-now-link,
     .header-new-line-link,
     .try-free-link {
@@ -107,6 +113,7 @@
         text-align: center;
         color: #fff
     }
+
     .frontpage-bg img {
         width: 100%;
         height: 475px;
@@ -137,26 +144,32 @@
     }
     .component-register-btn {
         top: 65%;
+
         background-color: transparent;
         border-width: 1px;
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 4px;
+
     }
     .component-link-btn {
         width: 126px;
         height: 40px;
+
         display: inline-block;
         line-height: 42px;
         margin: 0px auto;
         padding: 0px 5px;
+
     }
     #f1-description,
     h3.f1-heading {
         color: #253858;
         line-height: 1.2;
+
         letter-spacing: .3px;
+
     }
     .f1 {
         text-align: left;
@@ -182,6 +195,7 @@
     h3.f1-heading {
         display: inline-block;
         font-size: 1.5rem;
+
         margin: 14px 20px;
     }
     #f1-description {
@@ -211,14 +225,18 @@
         font-size: 13px
     }
     .f2-container {
+
         padding: 15px
+
     }
     h3.f2-header {
         color: #253858;
         font-size: 2.05rem;
         line-height: 1.33333333;
         text-align: center;
+
         white-space: nowrap
+
     }
     h6#f2-description {
         color: #253858;
@@ -230,6 +248,7 @@
         height: 4px;
         width: 140px
     }
+
     .f3-container {
         background-color: #F4F5F7;
     }
@@ -239,6 +258,7 @@
     .plan-package-software {
         width: 25%;
         float: left;
+
         padding: 28px
     }
     .plan-package-software-new{
@@ -249,6 +269,7 @@
         border-radius: 4px;
         padding: 0px 15px 25px;
         margin: 0px 5px;
+
     }
     .plan-package-software-table {
         width: 25%;
@@ -260,13 +281,16 @@
         float: left;
         background-color: #F4F5F7
     }
+
     .main-collection-story{
         padding-left: 10px;
     }
+
     .collection-img-story{
         width: 200px;
         height: 120px !important;
     }
+
     h3.f3-heading {
         color: #253858;
         font-size: 1.1rem;
@@ -275,12 +299,19 @@
         margin: 14px 0;
         white-space: nowrap
     }
+
     h6.f3-app2-content,
+
     h6.f3-app4-content,
+
     h6.f3-app5-content,
+
     h6.f3-app6-content,
+
     h6.f3-app7-content,
+
     h6.f3-app8-content,
+
     h6.f3-app9-content {
         color: #253858;
         font-size: 1rem;
@@ -288,6 +319,7 @@
         line-height: 1.2;
         margin: 14px 0
     }
+
     .f3-app10-img,
     .f3-app2-img,
     .f3-app4-img,
@@ -309,16 +341,20 @@
     .f3-app8-link,
     .f3-app9-link {
         text-align: left;
+
         margin: 14px 0px;
         color: #0052CC;
         padding: 0px;
+
     }
     .image-application {
         width: 479.98px;
         height: 278.88px;
+
     }
     .p1-application {
         padding: 10px 45px;
+
     }
     .p3-btn,
     .p3-link-btn {
@@ -334,6 +370,7 @@
     }
     .f3 {
         background-color: #F4F5F7;
+
         padding: 15px 0;
     }
     .f3-container-tablet {  
@@ -352,6 +389,7 @@
         padding: 0px;
         margin: 0px;
       
+
     }
     h6#f3-description {
         font-size: .9rem;
@@ -389,10 +427,12 @@
     .f4-foot {
         display: inline
     }
+
     .f4-foot{
         width: 479.984px;
         height: 184px;
     }
+
     .f4 img {
         display: block;
         width: 160px;
@@ -440,6 +480,7 @@
     }
     .comp-story1,
     .story1 {
+
         padding: 0
     }
     .collection-stories {
@@ -448,6 +489,7 @@
     .image-story1 {
         padding-top: 10px;
         padding-bottom: 50px
+
     }
     #story-f1-description {
         color: #253858
@@ -461,8 +503,10 @@
         color: #0342ad;
         text-align: center;
         margin-top: 0;
+
         margin-bottom: 50px;
         padding-top: 60px;
+
     }
     .f6-container {
         padding-left: 20px
@@ -474,6 +518,7 @@
     }
     .f6-link {
         text-align: left;
+
         color: rgb(37, 56, 88);
         font-size: 15px;
         padding: 0px;
@@ -482,11 +527,13 @@
         color: rgb(37, 56, 88);
         font-size: 11px;
         margin: 0px 18px;
+
     }
     .component-f6 {
         background-color: #eee;
         padding: 40px
     }
+
     .component-f6 img {
         display: block;
         margin-left: auto;
@@ -518,7 +565,9 @@
         color: #42526E
     }
     .bottom-logo-altassian img {
+
         padding: 15px 15px 15px 60px;
+
 
     }
     .bottom-section-f8 {
@@ -555,7 +604,9 @@
         width: 100%
     }
     .end-footer {
+
         padding:  20px 20px 20px 60px;
+
         background-color: #F4F5F7
     }
     .footer-language {
@@ -582,7 +633,9 @@
     }
     .container-footer-section {
         width: 100%;
+
         padding-left: 60px;
+
     }
     .float-left-leftmost {
         float: left;
@@ -599,7 +652,9 @@
         width: 115px;
         white-space: nowrap
     }
+
     .component__image_footer{
         padding-left:60px;
     }
+
 }
