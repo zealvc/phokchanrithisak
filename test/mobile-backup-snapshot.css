@@ -6,7 +6,6 @@
         padding: 0px;
         overflow-x: hidden; 
     }
-
     body,
     select {
         font-family: 'Merriweather Sans', sans-serif
@@ -17,9 +16,7 @@
     select {
         Border: none;
         color: #42526E;
-
         background-color: transparent;
-
     }
     .headernavbar {
         text-align: left;
@@ -31,7 +28,7 @@
         float: left
     }
     .hamburger-dropdown,
-
+    .logo img,
     .searchbtn {
         display: inline
     }
@@ -56,28 +53,22 @@
         color: #b8b8b8;
         text-align: center;
         padding: 20px;
-
         text-decoration: none;
-
     }
     .component-link-btn,
     .component-register-btn,
     .frontpage-bg {
         text-align: center;
-
         color: #fff;
-
     }
     .frontpage-bg img {
         width: 100%;
         height: auto;
-
         background-color: #1E133C;
     }
     .frontpage-bg {
         position: relative;
         height: 475px;
-
 
     }
     .frontpage-heading {
@@ -101,13 +92,11 @@
     }
     .component-register-btn {
         top: 75%;
-
         border: 2px solid rgb(255, 255, 255);
         background-color: Transparent;
         border-radius: 4px
     }
     
-
     .component-link-btn {
         width: 126px;
         height: 40px;
@@ -190,25 +179,24 @@
         height: 4px;
         width: 140px
     }
-
+    .f3-app1-img {
+        height: 10px;
+        width: 161px
+    }
     h3.f3-heading {
         font-size: 1.1rem;
         letter-spacing: .3px;
         margin: 14px 25px
     }
-
+    h6.f3-app1-content,
+    h6.f3-app10-content,
     h6.f3-app2-content,
-
+    h6.f3-app3-content,
     h6.f3-app4-content,
-
     h6.f3-app5-content,
-
     h6.f3-app6-content,
-
     h6.f3-app7-content,
-
     h6.f3-app8-content,
-
     h6.f3-app9-content {
         color: #253858;
         font-size: 1rem;
@@ -216,9 +204,10 @@
         line-height: 1.2;
         margin: 14px 25px
     }
-
+    .f3-app1-img,
     .f3-app10-img,
     .f3-app2-img,
+    .f3-app3-img,
     .f3-app4-img,
     .f3-app5-img,
     .f3-app6-img,
@@ -231,6 +220,7 @@
     .f3-app1-link,
     .f3-app10-link,
     .f3-app2-link,
+    .f3-app3-link,
     .f3-app4-link,
     .f3-app5-link,
     .f3-app6-link,
@@ -238,11 +228,9 @@
     .f3-app8-link,
     .f3-app9-link {
         text-align: left;
-
         margin: 0px 5px;
         color: #0052CC;
         padding: 0 20px;
-
     }
     .f3-component-link-btn,
     h3.f3-header,
@@ -252,7 +240,6 @@
         color: #253858
     }
     .f3 {
-
         background-color: #F4F5F7;
         padding: 0
     }
@@ -260,7 +247,6 @@
         padding: 15px 0;
         margin: 15px 0;
     }
-
     h3.f3-header {
         font-size: 1.3rem;
         letter-spacing: 0;
@@ -290,7 +276,6 @@
     }
     .f4 {
         display: block;
-
         width: 50%;
         padding: 17px;
         margin: 0px;
@@ -306,12 +291,14 @@
         height: 40px;
         width: 324px;
     }
+    f4-foot{
+        padding: 0px;
+    }
     .p3-link-btn{
         text-align: left; 
         margin: 0px 5px; 
         color: #0052CC; 
         padding: 0px;
-
     }
     #horizon-rule-2 {
         background: #e7e7e7;
@@ -335,13 +322,11 @@
         height: auto;
         padding: 10px 15px
     }
-
     .plan-package-software-new{
         float: left;
         border-radius: 4px;
         box-shadow: 1px 1px 6px rgba(0,0,0,.1);
     }
-
     .story1 {
         padding: 0 16px
     }
@@ -361,7 +346,6 @@
         color: #0052CC;
         padding: 0
     }
-
     .link-learn-more-a,
     .link-learn-more {
         clear:both;
@@ -375,7 +359,6 @@
         height: 20px;
         padding: 0;
         text-align: left;
-
     }
     #f6-description {
         color: #253858;
@@ -384,10 +367,8 @@
     }
     .component-f6 {
         background-color: #eee;
-
         padding: 40px 20px;
         margin: 25px;
-
     }
     .component-f6 img {
         display: block;
@@ -411,11 +392,9 @@
     .class2-content-link,
     .class2-content-link a {
         text-align: left;
-
         color: #0052CC;
         text-decoration: none;
         padding: 5px 0;
-
     }
     .bottom-class-link,
     .class-last {
@@ -481,7 +460,6 @@
     .try-free-btn {
         display: none;
     }
-
     .frontpage-bg{
         background-image: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le");
         background-position: bottom center;
@@ -491,5 +469,4 @@
     .p1-app-link{
         display: none;
     }
-
 }
