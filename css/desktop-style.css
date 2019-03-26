@@ -679,7 +679,7 @@
         display: none;
     }
     .component__image_footer{
-        padding-left: 40px;
-        padding-bottom: 170px;
+        padding-left: 40px !important;
+        padding-bottom: 170px !important;
     }
 }
