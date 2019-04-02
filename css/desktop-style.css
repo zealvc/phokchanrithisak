@@ -1,7 +1,16 @@
 @media(min-width:1366px) {
-    body{
-        margin: auto;
+    /*CSS Reset*/
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
     }
+    a{
+        text-decoration: none;
+    }
+    /*Cascading style*/
     .headerClass{
         width: 100%;
         height: 80px;
