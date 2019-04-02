@@ -1,4 +1,11 @@
 @media(min-width:1366px) {
-
-    
+    body{
+        margin: auto;
+    }
+    .headerClass{
+        width: 100%;
+        height: 80px;
+        position: fixed;    
+        background-color: #961326;
+    }
 }
