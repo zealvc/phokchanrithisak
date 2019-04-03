@@ -1,5 +1,5 @@
 @media(min-width:1366px) {
-    /*CSS Reset*/
+/*#CSS Reset*/
     html,body{
         width: 100%;
         height: 100%;
@@ -10,11 +10,16 @@
     a{
         text-decoration: none;
     }
-    /*Cascading style*/
+/*#Cascading style*/
+  /*##HeaderClass*/
     .headerClass{
         width: 100%;
         height: 80px;
         position: fixed;    
         background-color: #961326;
+    }
+    .logoClass,
+    .navClass{
+      display: inline-block
     }
 }
