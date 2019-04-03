@@ -1,19 +1,19 @@
 @media(min-width:1366px) {
 /*#CSS Reset*/
     html,body{
-        width: 100%;
-        height: 100%;
+        width: 100% !important;
+        height: 100% !important;
         margin: 0px;
         padding: 0px;
         overflow-x: hidden; 
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Teko', sans-serif !important;
     }
     a{
         text-decoration: none;
     }
 /*Default CSS*/
     /*Fonts*/
-    @font-face {
+    /* @font-face {
         font-family: 'Oswald', sans-serif;
         src: url("/rsc/font/Oswald-Bold.ttf");
         src: url("/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
@@ -54,23 +54,27 @@
         src: url("/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
              url("/fonts/Roboto-Regular.ttf") format('truetype');
         font-weight: 200;
-    }
+    } */
 /*#Cascading style*/
   /*##HeaderClass*/
             .headerClass{
                 width: 100%;
-                height: 80px;
+                height: 85px;
                 position: fixed;    
                 background-color: #961326;
+                /*div on div behind one another*/
+                z-index: 10;
             }
             .logoClass,
             .navClass{
-            display: inline-block
+            display: inline-block;
+            vertical-align: top;
             }
             .hd-btn1, .hd-btn2, .hd-btn3, .hd-btn4, .hd-btn5, .hd-btn6, .hd-spl1, .hd-spl2, .hd-spl3, .hd-spl4{
                 display: inline-block;
                 text-align: center;
                 color: #fff;
+                
             }
         .hd-btn1,
         .hd-btn2,
@@ -79,29 +83,38 @@
         .hd-btn5,
         .hd-btn6{
             display: inline-block;
-            padding: 20px;
-            width: 70px;
+            
+        }
+        .hd-btn1,
+        .hd-btn2,
+        .hd-btn3,
+        .hd-btn4{
+            padding: 2.5px;
             height: 14px;
             color: #fff;
         }
         .hd-btn1 a,
         .hd-btn2 a,
         .hd-btn3 a,
-        .hd-btn4 a,
-        .hd-btn5 a,
-        .hd-btn6 a{
+        .hd-btn4 a{
             padding: 5px;
-            font-size: 13px;
+            font-size: 20px;
             color: #fff;
-            word-wrap: break-word;
+            white-space: nowrap;
         }
         .hd-btn5,
         .hd-btn6{
                 background-color: #000;
+                padding: 18px 19px;
+                margin-left: 5px;
+                margin-right: 5px;
+
         }
         .hd-btn5 a,
         .hd-btn6 a{
                 color: #fff;
+                font-size: 20px;
+                
         }
         .hd-btn5:hover a,
         .hd-btn6:hover a{
@@ -109,12 +122,16 @@
                 transition: all .4s ease-in-out;
         }
         .headerClassContainer{
-            padding: 0 135px;
+            padding-left: 135px;
+            padding-right: 135px;
+            padding-top:10px;
             height: 80px;
         }
         .logoClass{
-                padding-right: 10rem;
+                padding-right: 14rem;
+                padding-top:3px;
         }
+     
    /*##bodyClass*/
         /*###bodyClassHero*/
         .bodyClassHero{
@@ -134,7 +151,7 @@
         }
         .Hero-title1{
             color: #FFF;
-            font-size: 2.4em;
+            font-size: 3em;
             max-width: 600px;
             margin: 0 auto;
             padding-bottom: 0px;
@@ -143,17 +160,16 @@
         }
         .Hero-title2{
             color: #FFF;
-            font-size: 8em;
+            font-size: 12em;
             max-width: 650px;
             margin: 0 auto;
-            font-family: DiamanteEFTU-DemiBold;
             padding-bottom: 0px;
             line-height: .7em;
             text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
         }
         .Hero-title3{
             color: #FFF;
-            font-size: 2.4em;
+            font-size: 3em;
             max-width: 600px;
             margin: 30px auto 0;
             line-height: 0.9em;
@@ -166,10 +182,15 @@
         }
         .Hero-title5{
             color: #FFF;
-            font-size: 1.5em;
+            font-size: 2.1em;
             padding-bottom: 0.75rem;
             line-height: 100% !important;
             text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
+        }
+        .Hero-title6-btn-container a,
+        .Hero-title7-btn-container a{
+            font-family: 'Teko', sans-serif;
+            font-size: 1.2rem;
         }
         .heroBtnWrapper{
             padding-left: 25%;
@@ -213,7 +234,7 @@
         .title-with-dash,
         .dash{
             display: inline-block;
-            font-family: diamanteeftu-demibold;
+            
             font-size: 2.5em;
         }
         .dash{
@@ -230,6 +251,16 @@
             width: 1080px;
             height:30px;
         }
+        .jobBody{
+            margin: 10px 202px;
+           
+        }
+        .jobBodyWrapper{
+            width: 280px;
+            height: 322px;
+        }
+        /*each card style*/
+        .jobWrapper-Container-bg,
         .bg1{
             background-image: url("/rsc/img/2.webp");
             background-size: cover;  
@@ -237,14 +268,131 @@
             background-position: center; 
             width: 252.11px;
             height: 252.11px;
+            margin: 0 auto;
         }
-        .jobBody{
-            margin: 20px 202px;
+        .jobWrapper-Container-label a,
+        .lb1 a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .jobWrapper-Container-label,
+        .lb1{
+            /*div horizontally center*/
+            margin: 0 auto;
+            position: relative;
+            padding: 5px;
+            bottom: 0;
+            text-align: center;
+            background-color: #951326;
+            width: 100%;
+            font-size: 1.2rem;
+            font-weight: 700;
+            /*This is how div on div work*/
+            top: -50px;
+            /*make it center between divs*/
+            left: -5px;    
+            /* margin-bottom: -1px; */
+        }
+        .jobWrapper-Container-Des,
+        .des1{
+            position: relative;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1rem;
+            text-align: center;
+            color: #951326;
+            font-family: 'Roboto', sans-serif;
+            top: -20px;
         }
         .jobBodyWrapper{
-            width: 280px;
-            height: 322px;
+            padding: 20px 15px;
         }
+        /*####3x3 grid*/
+        .wrapper-segregation1,
+        .wrapper-segregation2,
+        .wrapper-segregation3{
+            display: inline-block;
+            vertical-align: top;
+        }
+        .wrapper-segregation4,
+        .wrapper-segregation5,
+        .wrapper-segregation6{
+            display: inline-block;
+            vertical-align: top;
+        }
+        /*##bodyClassVideo*/
+        .bodyClassVideoContainer{
+            width: 100%;
+            background-color: #000;
+            height: 358px;
+        }
+        .thumbnail-link:hover .image {
+            opacity: 0.3;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .playbtn{
+            position: relative;
+            top: -225px;
+            left: 250px;
+        }
+        /*left and right on same line*/
+        .videoLeftSize,
+        .videoRightSize{
+            display: inline-block;
+        }
+        .videoLeftSize-container{
+            height: 358px;
+        }
+        .videoRightSizeContainer{
+            position: relative;
+            width: 637px;
+            height: 228px;
+            top: -210px;
+            left:100px;
+        }
+        .videoClass-title{
+            color: #fff;
+            font-weight: 700;
+            font-size: 2.5rem;
+            /* line-height: 40px; */
+        }
+        .videoClass-des{
+            color: #fff;
+            width: 450px;
+            height: 81px;
+            font-family: 'Roboto', sans-serif 
+        }
+        .contentText,
+        .contentImage{
+            display: inline-block;
+            vertical-align: top;
+        }
+        .bodyContentContainer{
+            height: 358px;
+            font-family: 'Roboto', sans-serif ;
+        }
+        .contentTextWrapper{
+         padding: 70px 196px 0 150px;
+        }
+        .textTitle{
+            padding-left: 20px;
+            font-family: Roboto;
+            color: #951326;
+            font-weight: 700;
+        }
+        ul{
+            font-family: Roboto;
+            letter-spacing: 0;
+            font-weight: 500;
+            font-size: 16px;
+            color: #020202;
+            line-height: 2em;
+            font-weight: 600;
+        }
+      
+  
+
    /*##footerClass*/
 /*End of Style*/
 }
