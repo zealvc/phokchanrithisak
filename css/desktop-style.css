@@ -92,8 +92,8 @@
         .hd-btn6 a{
             padding: 5px;
             font-size: 13px;
-        
-            color: #fff
+            color: #fff;
+            word-wrap: break-word;
         }
         .hd-btn5,
         .hd-btn6{
@@ -110,6 +110,8 @@
         }
         .headerClassContainer{
             padding: 0 135px;
+            
+            height: 80px;
         }
         .logoClass{
                 padding-right: 10rem;
@@ -120,6 +122,129 @@
             width: 1349px;
             height: 700px;
             background-image: url("/rsc/img/3.webp");
+            background-size: cover;  
+            background-repeat: no-repeat;
+            background-position: center; 
+        }
+        .bodyClassHeroContainer{
+            vertical-align: top;
+            padding:10% 25%;
+        }
+        .heroTitle{
+            text-align: center;
+        }
+        .Hero-title1{
+            color: #FFF;
+            font-size: 2.4em;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-bottom: 0px;
+            text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
+            /* position: relative; */
+        }
+        .Hero-title2{
+            color: #FFF;
+            font-size: 8em;
+            max-width: 650px;
+            margin: 0 auto;
+            font-family: DiamanteEFTU-DemiBold;
+            padding-bottom: 0px;
+            line-height: .7em;
+            text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
+        }
+        .Hero-title3{
+            color: #FFF;
+            font-size: 2.4em;
+            max-width: 600px;
+            margin: 30px auto 0;
+            line-height: 0.9em;
+            padding-bottom: 0px;
+            text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
+        }
+        .Hero-title4-line{
+            margin: 20px 280px;
+            border-top: 2px solid rgba(255,255,255,0.8);
+        }
+        .Hero-title5{
+            color: #FFF;
+            font-size: 1.5em;
+            padding-bottom: 0.75rem;
+            line-height: 100% !important;
+            text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
+        }
+        .heroBtnWrapper{
+            padding-left: 25%;
+        }
+        .Hero-title6-btn,
+        .Hero-title7-btn{
+            display: inline-block;
+        }
+        .Hero-title6-btn-container{
+            border: #fff solid 2px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: oswald,sans-serif;
+            padding: 10px 40px;
+            margin-right: 10px;
+        }
+        .Hero-title6-btn-container a{
+            color: #FFF;
+            border-color: #FFF;
+            margin-top: 0;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+        .Hero-title7-btn-container{
+            border: #8b0a1f solid 2px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: oswald,sans-serif;
+            padding: 10px 40px;
+            margin-right: 10px;
+            background-color: #8b0a1f;
+        }
+        .Hero-title7-btn-container a{
+            color: #FFF;
+            border-color: #8b0a1f;
+            margin-top: 0;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+        /*###bodyClassJob*/
+        .title-with-dash,
+        .dash{
+            display: inline-block;
+            font-family: diamanteeftu-demibold;
+            font-size: 2.5em;
+        }
+        .dash{
+            color: #8b0a1f;
+            font-weight: 500;
+            font-size: 2.5em;
+        }
+        
+        .jobHeaderContainer {
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin: auto 135px;
+            width: 1080px;
+            height:30px;
+        }
+        .bg1{
+            background-image: url("/rsc/img/2.webp");
+            background-size: cover;  
+            background-repeat: no-repeat;
+            background-position: center; 
+            width: 252.11px;
+            height: 252.11px;
+        }
+        .jobBody{
+            margin: 20px 202px;
+        }
+        .jobBodyWrapper{
+            width: 280px;
+            height: 322px;
         }
    /*##footerClass*/
 /*End of Style*/
