@@ -37,6 +37,20 @@ a{
             color: #fff;
             
         }
+        .hd-btn5, .hd-btn6, .hd-btn7{
+            display: inline-block;
+        }
+        .hd-btn7 a{
+            text-align: center;
+            color: #fff;
+            padding: 2.5px;
+            height: 14px;
+            white-space: nowrap;
+        }
+        .navLeftContainer{
+            margin-top:5px;
+            padding-left: 180px;
+        }
     .hd-btn1,
     .hd-btn2,
     .hd-btn3,
@@ -66,7 +80,7 @@ a{
     .hd-btn5,
     .hd-btn6{
             background-color: #000;
-            padding: 18px 19px;
+            padding: 10px;
             margin-left: 5px;
             margin-right: 5px;
 
@@ -106,8 +120,8 @@ a{
     .bodyClassHeroContainer{
         vertical-align: top;
         padding:10% 0%;
-        width: 1024px;
-        height: 426px;
+        width: 763px;
+        height: 363px;
     }
     .heroTitle{
         text-align: center;
@@ -156,7 +170,7 @@ a{
         font-size: 1.2rem;
     }
     .heroBtnWrapper{
-        padding-left: 35%;
+        padding-left: 28%;
     }
     .Hero-title6-btn,
     .Hero-title7-btn{
@@ -207,15 +221,18 @@ a{
     }
     
     .jobHeaderContainer {
-        text-align: center;
+       
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: auto 135px;
-        width: 1024px;
-        height:30px;
+        margin: auto 200px;
+        width: 354px;
+        height:43px;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
     }
     .jobBody{
-        margin: 10px 35px;
+        margin: 10px 72px;
        
     }
     .jobBodyWrapper{
@@ -287,7 +304,14 @@ a{
     .bodyClassVideoContainer{
         width: 100%;
         background-color: #000;
-        height: 272px;
+        height: 650px;
+    }
+    .videoLeftSize, .videoRightSize{
+        clear: both;
+    }
+    .tn-image{
+        width: 100%;
+        height: 432px;
     }
     .thumbnail-link:hover .image {
         opacity: 0.3;
@@ -299,12 +323,7 @@ a{
         top: -225px;
         left: 250px;
     }
-    /*left and right on same line*/
-    .videoLeftSize,
-    .videoRightSize{
-        display: inline-block;
-        vertical-align: top;
-    }
+
     .videoLeftSize-container{
         height: 358px;
     }
@@ -312,8 +331,9 @@ a{
         position: relative;
         width: 637px;
         height: 228px;
-        top: -290px;
-        left:540px;
+        top: 120px;
+        left: 100px;
+   
     }
     .videoClass-title{
         color: #fff;
@@ -332,11 +352,16 @@ a{
         display: inline-block;
         vertical-align: top;
     }
+    .ct-image{
+        width: 100%;
+        height: 431px;
+    }
     .bodyContentContainer{
-        height: 272px;
+        height: 650px;
         font-family: 'Roboto', sans-serif ;
     }
     .contentTextWrapper{
+        
      padding: 20px 95px 20px 80px;
 
     }
@@ -354,6 +379,16 @@ a{
         color: #020202;
         line-height: 2em;
         font-weight: 600;
+    }
+    .bodyClassContent{
+        height: 768px;
+    }
+    .bodyClassVideo, .bodyClassContent{
+        clear: both;
+    }
+    .bodyClassContent,
+    .bodyClassTopFooter{
+        clear: both;
     }
 /*bodyClassForm*/
 .bodyClassForm{
@@ -527,6 +562,9 @@ hr{
         color: #7e050b;
     }
 /*Hide Property*/
-
+    .hd-btn1, .hd-btn2, .hd-btn3, .hd-btn4,
+    .hd-spl1, .hd-spl2, .hd-spl3, .hd-spl4{
+        display: none;
+    }
 /*End of Style*/
 }
