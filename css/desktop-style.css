@@ -520,7 +520,10 @@
    .ft4 a{
        color: #7e050b;
    }
-
+/*Hide Property*/
+.burger{
+    display: none;
+}
 
 /*End of Style*/
 }
