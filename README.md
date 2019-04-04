@@ -12,7 +12,7 @@ Using the PageSpeed Insights reports on the performance of a page on both mobile
 ![Pagespeed Insight by Google](https://github.com/xpcrts/photo/blob/master/usxjob-pagespeed.PNG?raw=true)
 ## Google Lighthouse
 Usig automated tool (Google Lighthouse)for improving the quality of web pages and to do the auditing on webpage.
-#### Lighthouse auditing on *Original Website*
+#### Lighthouse auditing
 ![](https://github.com/xpcrts/photo/blob/master/usxjobs-audit.PNG?raw=true)
 
 
