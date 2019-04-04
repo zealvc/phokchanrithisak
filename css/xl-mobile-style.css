@@ -1,7 +1,6 @@
-
-@media(min-width:1024px) and (max-width:1365px){
-   /*#CSS Reset*/
-   html,body{
+@media (min-width:411px) and (max-width: 767px)  {
+    /*#CSS Reset*/
+html,body{
     width: 100% !important;
     height: 100% !important;
     margin: 0px;
@@ -15,6 +14,10 @@ a{
 
 /*#Cascading style*/
 /*##HeaderClass*/
+        .fa-bars{
+           margin-top: 20px;
+           margin-left: 110px; 
+        }
         .headerClass{
             width: 100%;
             height: 85px;
@@ -36,6 +39,20 @@ a{
             text-align: center;
             color: #fff;
             
+        }
+        .hd-btn5, .hd-btn6, .hd-btn7{
+            display: inline-block;
+        }
+        .hd-btn7 a{
+            text-align: center;
+            color: #fff;
+            padding: 2.5px;
+            height: 14px;
+            white-space: nowrap;
+        }
+        .navLeftContainer{
+            margin-top:5px;
+            /* padding-left: 180px; */
         }
     .hd-btn1,
     .hd-btn2,
@@ -66,7 +83,7 @@ a{
     .hd-btn5,
     .hd-btn6{
             background-color: #000;
-            padding: 18px 19px;
+            padding: 10px;
             margin-left: 5px;
             margin-right: 5px;
 
@@ -83,8 +100,8 @@ a{
             transition: all .4s ease-in-out;
     }
     .headerClassContainer{
-        padding-left: 90px;
-        padding-right: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top:10px;
         height: 80px;
     }
@@ -96,9 +113,14 @@ a{
 /*##bodyClass*/
     /*###bodyClassHero*/
     .bodyClassHero{
-        width: 1349px;
+        width: 360px;
         height: 700px;
+   
+    }
+    .classMobileHero{
         background-image: url("/rsc/img/3.webp");
+        width: 100%;
+        height: 500px;
         background-size: cover;  
         background-repeat: no-repeat;
         background-position: center; 
@@ -106,15 +128,17 @@ a{
     .bodyClassHeroContainer{
         vertical-align: top;
         padding:10% 0%;
-        width: 1024px;
-        height: 426px;
+        width: 100%;
+        height: 272px;
+        padding-top:130px;
+        margin-left: 25px;
     }
     .heroTitle{
         text-align: center;
     }
     .Hero-title1{
         color: #FFF;
-        font-size: 3em;
+        font-size: 1.5em;
         max-width: 600px;
         margin: 0 auto;
         padding-bottom: 0px;
@@ -123,7 +147,7 @@ a{
     }
     .Hero-title2{
         color: #FFF;
-        font-size: 12em;
+        font-size: 6em;
         max-width: 650px;
         margin: 0 auto;
         padding-bottom: 0px;
@@ -132,7 +156,7 @@ a{
     }
     .Hero-title3{
         color: #FFF;
-        font-size: 3em;
+        font-size: 1.8em;
         max-width: 600px;
         margin: 30px auto 0;
         line-height: 0.9em;
@@ -145,7 +169,7 @@ a{
     }
     .Hero-title5{
         color: #FFF;
-        font-size: 2.1em;
+        font-size: 1.5em;
         padding-bottom: 0.75rem;
         line-height: 100% !important;
         text-shadow: 0px 0px 95px #000, 0px 0px 5px #000;
@@ -156,7 +180,7 @@ a{
         font-size: 1.2rem;
     }
     .heroBtnWrapper{
-        padding-left: 35%;
+        padding-left: 12.5%;
     }
     .Hero-title6-btn,
     .Hero-title7-btn{
@@ -167,7 +191,7 @@ a{
         color: #fff;
         text-transform: uppercase;
         font-family: oswald,sans-serif;
-        padding: 10px 40px;
+        padding: 5px 25px;
         margin-right: 10px;
     }
     .Hero-title6-btn-container a{
@@ -182,7 +206,7 @@ a{
         color: #fff;
         text-transform: uppercase;
         font-family: oswald,sans-serif;
-        padding: 10px 40px;
+        padding: 5px 25px;
         margin-right: 10px;
         background-color: #8b0a1f;
     }
@@ -194,48 +218,58 @@ a{
         padding-top: 8px;
     }
     /*###bodyClassJob*/
+    .jC1, .jC2, .jC3, .jC4, .jC5, .jC6  {
+        width: 126px;
+        height: 126px;
+    }
     .title-with-dash,
     .dash{
         display: inline-block;
         
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     .dash{
         color: #8b0a1f;
         font-weight: 500;
         font-size: 2.5em;
     }
-    
+  
     .jobHeaderContainer {
+        width: 100%;
+        height:43px;
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin: auto 135px;
-        width: 1024px;
-        height:30px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .jobBodyContainer{
+        padding: 0 25px;    
     }
     .jobBody{
-        margin: 10px 35px;
+        margin: 10px 0;
+ 
        
     }
     .jobBodyWrapper{
-        width: 280px;
-        height: 322px;
+        width: 150px;
+        height: 150px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     /*each card style*/
-    .jobCard{
-        width: 250px;
-        height: 250px;
-    }
     .jobWrapper-Container-bg,
     .bg1{
         /* background-image: url("/rsc/img/2.webp"); */
         background-size: cover;  
         background-repeat: no-repeat;
         background-position: center; 
-        width: 252.11px;
-        height: 252.11px;
+        width: 180px;
+        height: 180px;
         margin: 0 auto;
+        text-align: center;
     }
     .jobWrapper-Container-label a,
     .lb1 a{
@@ -251,28 +285,31 @@ a{
         bottom: 0;
         text-align: center;
         background-color: #951326;
-        width: 100%;
+        width: 140px;
+        height: 20px;
         font-size: 1.2rem;
         font-weight: 700;
+        
         /*This is how div on div work*/
-        top: -50px;
+        top: -100px;
         /*make it center between divs*/
-        left: -5px;    
+        left: 15px;    
         /* margin-bottom: -1px; */
     }
     .jobWrapper-Container-Des,
     .des1{
+        width: 180px;
         position: relative;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
         color: #951326;
         font-family: 'Roboto', sans-serif;
-        top: -20px;
+        top: -70px;
     }
     .jobBodyWrapper{
-        padding: 20px 15px;
+        padding: 20px 8px;
     }
     /*####3x3 grid*/
     .wrapper-segregation1,
@@ -291,11 +328,14 @@ a{
     .bodyClassVideoContainer{
         width: 100%;
         background-color: #000;
-        height: 272px;
+        height: 600px;
+    }
+    .videoLeftSize, .videoRightSize{
+        clear: both;
     }
     .tn-image{
-        width: 483px;
-        height: 272px;
+        width: 100%;
+        height: 202;
     }
     .thumbnail-link:hover .image {
         opacity: 0.3;
@@ -304,24 +344,21 @@ a{
     }
     .playbtn{
         position: relative;
-        top: -225px;
-        left: 250px;
+        top: -140px;
+        left: 165px;
+        font-size: 0.5rem;
     }
-    /*left and right on same line*/
-    .videoLeftSize,
-    .videoRightSize{
-        display: inline-block;
-        vertical-align: top;
-    }
+
     .videoLeftSize-container{
         height: 358px;
     }
     .videoRightSizeContainer{
         position: relative;
-        width: 637px;
-        height: 228px;
-        top: -290px;
-        left:540px;
+        width: 360px;
+        height: 275px;
+        top: -110px;
+        padding: 0 25px;
+   
     }
     .videoClass-title{
         color: #fff;
@@ -331,26 +368,30 @@ a{
     }
     .videoClass-des{
         color: #fff;
-        width: 383px;
-        height: 81px;
+        width: 300px;
+        height: 135px;
         font-family: 'Roboto', sans-serif 
-    }
-    .ct-image{
-        width: 483px;
-        height: 272px;
     }
     .contentText,
     .contentImage{
         display: inline-block;
         vertical-align: top;
     }
+    .ct-image{
+        position: relative;
+        width: 100%;
+        height: 202px;
+        top: -462px;
+    }
     .bodyContentContainer{
-        height: 272px;
+        height: 650px;
         font-family: 'Roboto', sans-serif ;
     }
     .contentTextWrapper{
-     padding: 20px 95px 20px 80px;
-
+        position: relative;
+        top: 80px;
+     padding: 20px 10px 20px;
+   
     }
     .textTitle{
         padding-left: 20px;
@@ -367,26 +408,37 @@ a{
         line-height: 2em;
         font-weight: 600;
     }
+    .bodyClassContent{
+        height: 410px;
+    }
+    .bodyClassVideo, .bodyClassContent{
+        clear: both;
+    }
+    .bodyClassContent,
+    .bodyClassTopFooter{
+        clear: both;
+    }
 /*bodyClassForm*/
 .bodyClassForm{
     width: 100%;
-    height: 840px;
+    height: 940px;
     background-color: #000;
 }
 .bodyFormContainer{
   
     padding: 30px 20px;
-    width: 1009px;
-    height: 851px;
+    width: 283px;
+    height: 888px;
+    padding-left: 45px;
 }
 .formContainer{
-    width: 486px;
-    height: 730px;
+    width: 283px;
+    height: 848px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    font-family: Roboto;
-    margin: 0 250px;
+    font-family: 'Roboto';
+ 
 }
 .formTitle{
     font-family: 'Teko', sans-serif;
@@ -395,22 +447,20 @@ a{
     font-size: 2.7rem;
 }
 .inputBox{
-    width: 200px;
-    height: 44px;
+    width: 118px;
+    height: 35px;
     border: 1px solid #bbb;
     color: #4e4e4e;
     background-color: #fff;
     border-radius: 4.5px;   
     padding-left: 15px;
-    font-size: 1rem; 
+    font-size: 0.89rem; 
     margin: 6px 2px;
 }
-.form-subContainer{
-    padding: 0 18px;
-}
+
 select{
-    width: 443px;
-    height: 44px;
+    width: 278px;
+    height: 43px;
     border: 1px solid #bbb;
     color: #000;
     background-color: #fff;
@@ -428,11 +478,11 @@ select{
     display: inline-block;
 }
 .subNum{
-    width: 287px;
+    width: 163px;
     height: 44px;
 }
 .number{
-    width: 135px;
+    width: 95px;
     height: 44px;   
     border: 1px solid #bbb;
     color: #4e4e4e;
@@ -448,9 +498,10 @@ select{
     font-weight: 300;
     font-size: 1rem;
     color: #666666;
+    /* padding-right: 200px; */
 }
 hr{
-    margin: 0 180px;
+    margin: 20px 90px;
     border-top: #d00e17 solid 1px;
 }
 .row{
@@ -479,15 +530,19 @@ hr{
     text-transform: uppercase;
     font-size: 24px;
     text-align: center;
-    padding: 14px 195px;
+    padding: 5px 115px;
     border-radius: 4.5px;   
     border-color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*##topFooterContainer*/
 .bodyClassTopFooter{
     margin:0 10px;
     padding-top:20px;
-    padding-bottom:15px;
+    padding-bottom:20px;
+    width: 340px;
+    height: 130px;
 }
 .topFooterContainer{
     height: 80px;
@@ -495,13 +550,14 @@ hr{
     padding: 5px 35px;
 }
 .topFooterWrapper{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
     text-align: center;
     border: #7e050b solid 1px;
     color: #8d8d8d;
     font-family: 'Roboto';
     font-size: 0.8rem;
+    width: 270px;
+    height: 70px;
 }
 /*##Footer*/
 /*##footerClass*/
@@ -518,19 +574,31 @@ hr{
         display: inline-block;
     }
     .footerLeftContainer{
-        width: 769px;
-        height: 32px;
+        width: 290px;
+        height: 84px;
+        position: relative;
+        top: 25px;
+        padding-left: 20px;
     }
     .footerClass{
         background-color: #c7c7c7;
         width: 100%;
-        height: 53px;
+        height: 150px;
         padding: 15px 20px;
     }
     .footerClassContainer{
-        padding-left: 50px;
+        position: relative;
+        top: 15px;
+        /* padding-left: 50px;
         padding-top: 18px;
-        padding-bottom: 15px;
+        padding-bottom: 15px; */
+    }
+    .footerRightContainer{
+        position: relative;
+        top:-100px;
+        left: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .ft2 a, .ft6 a{
         color: #4e4e4e;
@@ -538,8 +606,9 @@ hr{
     .ft4 a{
         color: #7e050b;
     }
-    /*Hide Property*/
-    .burger{
+/*Hide Property*/
+    .hd-btn1, .hd-btn2, .hd-btn3, .hd-btn4, .hd-btn5, .hd-btn6,
+    .hd-spl1, .hd-spl2, .hd-spl3, .hd-spl4{
         display: none;
     }
 /*End of Style*/

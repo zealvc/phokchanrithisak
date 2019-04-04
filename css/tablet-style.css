@@ -231,8 +231,12 @@ a{
         font-size: 1.2rem;
         font-weight: 700;
     }
+    /* .jobBodyWrapper{
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
     .jobBody{
-        margin: 10px 72px;
+        margin: 10px 70px;
        
     }
     .jobBodyWrapper{
@@ -240,6 +244,10 @@ a{
         height: 322px;
     }
     /*each card style*/
+    .jobCard{
+        width: 250px;
+        height: 250px;
+    }
     .jobWrapper-Container-bg,
     .bg1{
         background-image: url("/rsc/img/2.webp");
@@ -407,7 +415,7 @@ a{
 }
 .formContainer{
     width: 690px;
-    height: 817px;
+    height: 725px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
