@@ -377,12 +377,12 @@
         }
         .textTitle{
             padding-left: 20px;
-            font-family: Roboto;
+            font-family: 'Roboto';
             color: #951326;
             font-weight: 700;
         }
         ul{
-            font-family: Roboto;
+            font-family: 'Roboto';
             letter-spacing: 0;
             font-weight: 500;
             font-size: 16px;
@@ -390,9 +390,161 @@
             line-height: 2em;
             font-weight: 600;
         }
+    /*bodyClassForm*/
+    .bodyClassForm{
+        width: 100%;
+        height: 910px;
+        background-color: #000;
+    }
+    .bodyFormContainer{
+        margin: 0 134px;
+        padding: 30px;
+        width: 1009px;
+        height: 851px;
+    }
+    .formContainer{
+        width: 486px;
+        height: 811px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Roboto;
+        margin: 0 250px;
+    }
+    .formTitle{
+        font-family: 'Teko', sans-serif;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.7rem;
+    }
+    .inputBox{
+        width: 200px;
+        height: 44px;
+        border: 1px solid #bbb;
+        color: #4e4e4e;
+        background-color: #fff;
+        border-radius: 4.5px;   
+        padding-left: 15px;
+        font-size: 1rem; 
+        margin: 6px 2px;
+    }
+    .form-subContainer{
+        padding: 0 18px;
+    }
+    select{
+        width: 443px;
+        height: 44px;
+        border: 1px solid #bbb;
+        color: #000;
+        background-color: #fff;
+        border-radius: 4.5px;   
+        padding-left: 15px;
+        font-size: 1rem; 
+        margin: 6px 2px;
+    }
+    .sN1,
+    .n1{
+        display: inline-block;
+    }
+    .sN2,
+    .n2{
+        display: inline-block;
+    }
+    .subNum{
+        width: 287px;
+        height: 44px;
+    }
+    .number{
+        width: 135px;
+        height: 44px;   
+        border: 1px solid #bbb;
+        color: #4e4e4e;
+        background-color: #fff;
+        border-radius: 4.5px;   
+        padding-left: 15px;
+        font-size: 1rem; 
+        margin: 6px 2px;
       
-  
-
+    }
+    .subNum{
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 1rem;
+        color: #666666;
+    }
+    hr{
+        margin: 0 180px;
+        border-top: #d00e17 solid 1px;
+    }
+    .row{
+        font-family: 'Roboto';
+        font-size: 18px;  
+        color: #666666;
+        font-weight: 700;
+    }
+    .checkbox{
+        width: 16px;
+        height: 16px;
+    }
+    .cb{
+        font-size: 1rem;
+        color: #666666;
+        line-height: 1.9rem;
+    }
+    .cb a{
+        color: #8b0a1f;
+    }
+    .submit{
+        
+        background-color: #951326;
+        font-family: 'Teko', sans-serif;
+        color: #fff!important;
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: center;
+        padding: 14px 195px;
+        border-radius: 4.5px;   
+        border-color: #FFF;
+    }
+    /*##topFooterContainer*/
+    .bodyClassTopFooter{
+        margin:0 134px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .topFooterContainer{
+        height: 90px;
+        width: auto;
+        padding: 30px 35px;
+    }
+    .topFooterWrapper{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        border: #7e050b solid 1px;
+        color: #8d8d8d;
+        font-family: 'Roboto';
+        font-size: 0.8rem;
+    }
+    /*##Footer*/
    /*##footerClass*/
+   .footerClass{
+    width: 100%;
+    height: 42px;
+    padding: 15px 20px;
+    background-color: #bdbdbd;
+}
+   .footerLeft,
+   .footerRight{
+       display: inline-block;
+   }
+   .ft1,
+   .ft2,
+   .ft3,
+   .ft4,
+   .ft5,
+   .ft6{
+       display: inline-block;
+   }
 /*End of Style*/
 }
