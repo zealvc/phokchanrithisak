@@ -1,3 +1,29 @@
 @media(min-width:1366px) {
+       /*#CSS Reset*/
+    html,body{
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        overflow-x: hidden !important; 
+        font-family: 'Oswald', sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    /*CSS Style Cascading*/
+    .banner-title,
+    .banner-dropdown{
+        display: inline-block;
+        padding: 10px;
+        color: #ffffff;  
+        font-size: 2rem;
+    }
+    .banner-container{
+        height: 80px;
+        background-color: #451400;
+        width: 100%;
+        text-align: center;
+    }
 /*End of Style*/
 }
