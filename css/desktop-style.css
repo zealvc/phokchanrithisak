@@ -25,5 +25,68 @@
         width: 100%;
         text-align: center;
     }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .stickyHeader-container{
+        width: 100%;
+        border:  0.7px solid #f5c2af;
+    }
+    .stickyHeaderleft, .stickyHeadermiddle, .stickyHeaderright{
+        display: inline-block;
+        vertical-align: middle; 
+    }
+    .md-title1, 
+    .md-title2,
+    .md-title3,
+    .md-title4,
+    .md-title5{
+        display: inline-block;
+        font-size: 2rem;
+        padding: 0 0.5rem;
+    }
+    .md-title1 a, 
+    .md-title2 a,
+    .md-title3 a,
+    .md-title4 a,
+    .md-title5 a{
+        color: #451400;
+        text-decoration: none;
+    }
+
+    .stickyHeaderright{
+        background-color: #451400;
+        border-radius: 20px;
+        padding: 7px 20px;
+        font-size: 1.1rem;
+    }
+    .sm-link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .sm-logo, .sm-text{
+        display: inline-block;
+        vertical-align: top;
+        /* padding: 0 3px; */
+    }
+    .sm-logo{
+        width: 26px;
+        height: 26px;
+    }
+    .stickyHeader-container{
+        padding: 5px 1vw;
+        /* text-align: center; */
+    }
+    .stickyHeadermiddle{
+        text-align: center;
+    }
+    .stickyHeadermiddle-container{
+        padding: 0 24.5vw;
+    }
+    .heroClass{
+        width: 100%;
+        height: auto;
+    }
 /*End of Style*/
 }
