@@ -29,16 +29,13 @@
         width: 80px;
         height: 80px;
     }
-    .stickyHeader-container{
-        width: 100%;
-        border:  0.7px solid #f5c2af;
-    }
+   
     .stickyHeaderleft, .stickyHeadermiddle, .stickyHeaderright{
         display: inline-block;
         vertical-align: middle; 
     }
     .md-title1, 
-    .md-title2,
+    .md-title2, 
     .md-title3,
     .md-title4,
     .md-title5{
@@ -76,17 +73,57 @@
     }
     .stickyHeader-container{
         padding: 5px 1vw;
+        position: sticky;
+        top: 0;
         /* text-align: center; */
     }
     .stickyHeadermiddle{
         text-align: center;
     }
     .stickyHeadermiddle-container{
-        padding: 0 24.5vw;
+        padding: 0 24vw;
     }
     .heroClass{
+        background-image: url("../rsc/img/hero-bg.webp");
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
         width: 100%;
-        height: auto;
+        height: 690px;
+        /* text-align: center; */
     }
+    .hb1, .hb2{
+        display: inline-block;
+    }
+    .hb1{
+        font-family: 'Muli', sans-serif;
+        font-size: 1.8rem;
+        background-color: #ad2118;
+        color: #ffffff;
+        padding: 0.6vw 4vw;
+        float:left;
+        /* margin-bottom: 0.9vw; */
+    }
+    .hb2{
+        font-size: 1.8rem;
+        font-weight: 800;
+        padding: 0.23vw 4vw;
+        background-color: #82120a;
+        text-align: center;
+        padding-bottom:0.6vw;
+    }
+    .arrow{
+        font-size: 1.3vw;
+    }
+    .hb2 a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .hero-container{
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 32vw;
+    }
+    
 /*End of Style*/
 }
